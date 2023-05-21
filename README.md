@@ -90,7 +90,7 @@
    * [Berkeley]()
      *  Sergey Levine
      *  Michael Jordan
-     *  Pieter Abbeel
+     *  Pieter Abbeel [[Gruop]](https://bair.berkeley.edu/index.html#header)
      *  Dimitri Bertsekas
      *  Emma Brunskill
      *  Chelsea Finn
