@@ -6,11 +6,19 @@
    - [Lectures](#lectures)
    - [Books](#books)
    - [Surveys](#surveys)
+   - [Community](#community)
    - [Research Group](#research-group)
    - [Industry Group China](#industry-group-china)
 
 
 ---
+## Community
+* [RLChina](http://rlchina.org/)
+* [DeepRLHub](http://www.deeprlhub.com/)
+
+
+---
+
 
 ## Books
 * Reinforment Learning Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
