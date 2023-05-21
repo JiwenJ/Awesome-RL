@@ -132,7 +132,6 @@
 ## Industry Group China
 * [BaiDu]()
    * [PARL]()
-     * []()
 * [Tencent]()
 * [NetEase]()
 * [ByteDance]()
