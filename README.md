@@ -68,16 +68,61 @@
    * [NUDT]()
      * Xin Xv 
 * [North America]()
+   * [Mcgill]()
+     * Doina Precup
+     * Joelle Pineau
+   * [Alberta]()
+     * Michael Bowling [[Homepage]]() 
    * [UCLA]()
       * Bolei Zhou  [[Homepage]](https://boleizhou.github.io/)
    * [MIT]()
-     * [MIT]()
+     * Pulkit Agrawal
+     * Leslie Kaelbling
+     * Russ Tedrake
+     * Nicholas Roy
    * [CMU]()
-     * [MIT]()
+     * Geoffrey Gordon
+     * Emma Brunskill
+     * Jeff Schneider
+     * Andrew Moore
+     * Jessica K. Hodgins
+     * Wen Sun [[Homepage]](https://wensun.github.io/)
    * [Berkeley]()
-     * [MIT]()
+     *  Sergey Levine
+     *  Michael Jordan
+     *  Pieter Abbeel
+     *  Dimitri Bertsekas
+     *  Emma Brunskill
+     *  Chelsea Finn
+     *  Anca Dragan
+     *  Ken Goldberg
+     *  Stuart Russell
    * [Standford]()
+     * Benjamin Van Roy 
+     * Emma Brunskill
+     * Mykel Kochenderfer
+     * Dorsa Sadigh
+     * Tengyu Ma
+     * Chelsea Finn
+     * Andrew Ng
+   * [Duke]()
+     * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
+   * [Brown]()
+     * Michael Littman 
+   * [UIUC]()
+     * Nan Jiang [[Homepage]](https://nanjiang.cs.illinois.edu/)
+   * [Columbia]()
+     * Daniel Russo 
+     * Shipra Agrawal
+     * Alekh Agarwal
+     * Alex Slivkins
 * [Europe]()
+   * [ETH Zurich]()
+     * Andreas Krause
+   * [Oxford]()
+     * Jakob Foerster
+   * [Cambridge]()
+   * [IC]()
    * [UCL]()
      * [Jun Wang]()
    * [UCL]()
