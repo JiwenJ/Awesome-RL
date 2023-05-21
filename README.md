@@ -117,6 +117,8 @@
      * Alekh Agarwal
      * Alex Slivkins
 * [Europe]()
+   * [INRIA]()
+     * Flower Team [[Homepage]](https://flowers.inria.fr/) 
    * [ETH Zurich]()
      * Andreas Krause
    * [Oxford]()
@@ -129,24 +131,31 @@
 #### Other outer link
 - [Awesome-CV-Team](https://github.com/extreme-assistant/Awesome-CV-Team)
 
-## Industry Group China
-* [BaiDu]()
-   * [PARL]()
-* [Tencent]()
-* [NetEase]()
-* [ByteDance]()
-* [Di Di]()
-* [BaiDu]()
-* [MSRA]()
-* [Huawei]()
-* [PINGAN]()
-* [Polixir.ai]()
-* [Inspirai]()
-* [Horizon]()
-* [Momenta]()
-* [Parametrix.ai]()
-* [Alibaba]()
-* [Kwai]()
+## Industry Group
+* [China]()
+   * [BaiDu]()
+      * [PARL]()
+   * [Tencent]()
+   * [NetEase]()
+   * [ByteDance]()
+   * [Di Di]()
+   * [BaiDu]()
+   * [MSRA]()
+   * [Huawei]()
+   * [PINGAN]()
+   * [Polixir.ai]()
+   * [Inspirai]()
+   * [Horizon]()
+   * [Momenta]()
+   * [Parametrix.ai]()
+   * [Alibaba]()
+   * [Kwai]()
+* [Oversea]()
+  * OpenAI
+  * DeepMind
+  * Google Brain
+  * FAIR
+  * Salesforce Research
 
 <!-- * [MSRA]()
 * [MSRA]()
