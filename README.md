@@ -116,11 +116,14 @@
      * Shipra Agrawal
      * Alekh Agarwal
      * Alex Slivkins
+   * [Toronto]()
+     * Jimmy Ba [[Homepage]](https://jimmylba.github.io/)
+     * Sheila McIlraith [[Homepage]](https://www.cs.toronto.edu/~sheila/)
 * [Europe]()
    * [INRIA]()
      * Flower Team [[Homepage]](https://flowers.inria.fr/) 
    * [ETH Zurich]()
-     * Andreas Krause
+     * Andreas Krause [[Homepage]](https://las.inf.ethz.ch/krausea)
    * [Oxford]()
      * Jakob Foerster
    * [Cambridge]()
