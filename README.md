@@ -48,9 +48,11 @@
       * Chongjie Zhang [[Homepage]](http://people.iiis.tsinghua.edu.cn/~zhang/)
       * Yi Wu [[Homepage]](https://jxwuyi.weebly.com/) [[Group]](https://jxwuyi.weebly.com/)
       * Zhihua Zhang [[Homepage]](https://www.math.pku.edu.cn/teachers/zhzhang/)
+      * Shengbo Li [[Homepage]](http://www.idlab-tsinghua.com/thulab/labweb/dpeople.html?11) [[Group]](http://www.idlab-tsinghua.com/thulab/labweb/index.html)
    * [USTC]()
       * Feng Wu [[Homepage]](http://staff.ustc.edu.cn/~wufeng02/index.html?lang=zh)
-   * [CUHK SZ]()
+      * Houqiang Li [[Homepage]](http://staff.ustc.edu.cn/~lihq/)
+   * [CUHK-SZ]()
       * Baoxiang Wang [[Homepage]](https://bxiangwang.github.io/)
       * Hongyuan Zha [[Homepage]](https://sds.cuhk.edu.cn/en/teacher/65)
    * [CUHK]()
@@ -59,6 +61,12 @@
       * Jianye Hao [[Homepage]](https://jxwuyi.weebly.com/) [[Group]](https://jxwuyi.weebly.com/)
    * [SIAT]()
      * Yunduan Cui [[Homepage]](https://cuiyunduan.vercel.app/zh/)
+   * [HIT-SZ]
+     * Yanjie Li [[Homepage]](http://faculty.hitsz.edu.cn/liyanjie)
+   * [NTU]
+     * Bo An [[Homepage]](https://personal.ntu.edu.sg/boan/index.html)
+   * [NUDT]
+     * Xin Xv 
 * [North America]()
    * [UCLA]()
       * Bolei Zhou  [[Homepage]](https://boleizhou.github.io/)
