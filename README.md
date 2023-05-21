@@ -125,10 +125,7 @@
    * [IC]()
    * [UCL]()
      * [Jun Wang]()
-   * [UCL]()
-     * [MIT]()
-   * [UCL]()
-     * [MIT]()
+
 #### Other outer link
 - [Awesome-CV-Team](https://github.com/extreme-assistant/Awesome-CV-Team)
 
