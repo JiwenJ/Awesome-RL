@@ -3,9 +3,7 @@
 
 
 - [Awesome RL](#awesome-python)
-   - [Lectures](#lectures)
    - [Books](#books)
-   - [Surveys](#surveys)
    - [Community](#community)
    - [Research Group](#research-group)
    - [Industry Group China](#industry-group-china)
