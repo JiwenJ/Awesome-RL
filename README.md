@@ -7,6 +7,7 @@
    - [Books](#books)
    - [Surveys](#surveys)
    - [Research Group](#research-group)
+   - [Industry Group China](#industry-group-china)
 
 
 ---
@@ -55,7 +56,7 @@
    * [UCL]()
      * [MIT]()
 
-## Industry Group (China)
+## Industry Group China
 * [BaiDu]()
    * [PARL]()
      * []()
@@ -64,10 +65,6 @@
 * [ByteDance]()
 * [Di Di]()
 * [BaiDu]()
-* [MSRA]()
-* [MSRA]()
-* [MSRA]()
-* [MSRA]()
 * [MSRA]()
 * [Huawei]()
 * [PINGAN]()
@@ -78,6 +75,10 @@
 * [Parametrix.ai]()
 * [Alibaba]()
 * [Kwai]()
-。
+
+<!-- * [MSRA]()
+* [MSRA]()
+* [MSRA]()
+* [MSRA]() -->
 
 
