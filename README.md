@@ -32,8 +32,8 @@
    - Easy RL 强化学习教程 王琦
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪 [Preferred]
-   - 神经网络与深度学习 邱
-
+   - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏
+http://www.mit.edu/~dimitrib/RLbook.html
 ---
 ## Courses
 - UC Berkeley CS294 (before), CS285 Sergey Levine
