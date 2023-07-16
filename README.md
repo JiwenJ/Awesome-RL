@@ -52,14 +52,20 @@ http://www.mit.edu/~dimitrib/RLbook.html
 - https://people.eecs.berkeley.edu/~pabbeel/
 - 唐杰
 - 李升波
+- 
 ---
 ## Blog
+
 - 刘建平
---
+
+
 ---
+
 ## Zhihu
+
 - 郭宪
---
+  
+---
 ## GitHub Repo
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
 - stable baseline
