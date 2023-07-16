@@ -50,6 +50,8 @@ http://www.mit.edu/~dimitrib/RLbook.html
 - MoFan
 - ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
 - https://people.eecs.berkeley.edu/~pabbeel/
+- 唐杰
+- 李升波
 ---
 ## Blog
 - 刘建平
