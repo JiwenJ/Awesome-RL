@@ -20,28 +20,36 @@
 
 ## Books
 - English
-   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
+   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred]
    - Algorithm of Reinforcement Learning
 - Chinese
-   - 动手学强化学习 张伟楠
+   - 动手学强化学习 张伟楠 [Preferred]
    - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森
+   - 深度强化学习 王树森 [Preferred]
    - Easy RL 强化学习教程 王琦
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪
 
 ---
 ## Courses
-- UC Berkeley CS285 Sergey Levine
+- UC Berkeley CS294 (before), CS285 Sergey Levine
 - Stanford CS234 RL Emma Brunskill
 - MIT RL Dimitri Bertsekas
-- RL David Silver
+- UCL RL David Silver [Preferred]
 - DRL Shusen Wang
 - RL and control THU
 - DRL Hung-Yi Lee
-- 
+- CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
+- Udacity
+- Lex Fridman
 
 ---
+## Blog
+--
+---
+## Zhihu
+
+--
 ## Community
 * [RLChina](http://rlchina.org/)
 * [DeepRLHub](http://www.deeprlhub.com/)
