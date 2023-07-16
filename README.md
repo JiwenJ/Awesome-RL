@@ -26,6 +26,7 @@
    - 深度强化学习落地指南 魏宁
    - 深度强化学习 王树森
    - EASY RL 强化学习教程
+   - 深度强化学习 董豪 [Website](https://deepreinforcementlearningbook.org/)
 
 ---
 ## Courses
