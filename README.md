@@ -26,7 +26,7 @@
    - 动手学强化学习 张伟楠
    - 深度强化学习落地指南 魏宁
    - 深度强化学习 王树森
-   - EASY RL 强化学习教程
+   - Easy RL 强化学习教程 王琦
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪
 
