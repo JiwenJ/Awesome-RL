@@ -60,11 +60,12 @@ http://www.mit.edu/~dimitrib/RLbook.html
 --
 ## GitHub Repo
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
-- stablebaseline
+- stable baseline
 
 --
 ## Website
 - [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
+- [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
 
 ---
 ## Community
