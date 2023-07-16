@@ -49,6 +49,7 @@ http://www.mit.edu/~dimitrib/RLbook.html
 - Lex Fridman
 - MoFan
 - ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
+- https://people.eecs.berkeley.edu/~pabbeel/
 ---
 ## Blog
 - 刘建平
