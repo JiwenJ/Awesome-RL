@@ -58,7 +58,8 @@ http://www.mit.edu/~dimitrib/RLbook.html
 - 郭宪
 --
 ## GitHub Repo
-[rlcode](https://github.com/rlcode/reinforcement-learning)
+- [rlcode](https://github.com/rlcode/reinforcement-learning)
+- stablebaseline
 
 --
 ## Website
