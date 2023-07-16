@@ -12,7 +12,8 @@
    - [Research Group](#research-group)
    - [Industry Group](#industry-group)
    - [Discussion](#discussion)
-   - [Contribution](#contribution)
+   - [Contributing](#contributing)
+   - [Reference](#reference)
 
 ---
 
