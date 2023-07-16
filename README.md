@@ -20,7 +20,8 @@
 
 ## Books
 - English
-   - Reinforcement Learning Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
+   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
+   - Algorithm of Reinforcement Learning
 - Chinese
    - 动手学强化学习 张伟楠
    - 深度强化学习落地指南 魏宁
@@ -31,7 +32,14 @@
 
 ---
 ## Courses
-- UC Berkeley CS285
+- UC Berkeley CS285 Sergey Levine
+- Stanford CS234 RL Emma Brunskill
+- MIT RL Dimitri Bertsekas
+- RL David Silver
+- DRL Shusen Wang
+- RL and control THU
+- DRL Hung-Yi Lee
+- 
 
 ---
 ## Community
