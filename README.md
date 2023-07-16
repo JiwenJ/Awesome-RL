@@ -76,6 +76,7 @@
       * Ying Wen [[Homepage]](https://yingwen.io/)
    * [PKU]()
       * Yaodong Yang [[Homepage]](https://www.yangyaodong.com/)
+      * Zhihua Zhang [[Homepage]](https://www.math.pku.edu.cn/teachers/zhzhang/)
       * Zongqing Lu [[Homepage]](https://z0ngqing.github.io/)
       * Hao Dong [[Homepage]](https://zsdonghao.github.io/)
    * [THU]()
