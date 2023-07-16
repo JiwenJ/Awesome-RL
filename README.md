@@ -24,7 +24,7 @@
    - Algorithm of Reinforcement Learning
    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
-   - 
+   - Deep-Reinforcement-Learning-Hands-On [Not found]
 - Chinese
    - 动手学强化学习 张伟楠 [Preferred]
    - 深度强化学习落地指南 魏宁
@@ -53,6 +53,10 @@
 --
 ---
 ## Zhihu
+
+--
+## GitHub Repo
+[rlcode](https://github.com/rlcode/reinforcement-learning)
 
 --
 ## Community
