@@ -1,29 +1,23 @@
-@[TOC]{ss}
-
-
-# Awesome RL  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# <div align="center"> Awesome RL</div>
+<div align="center"> 
+   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" ></a>
+</div>
 
 
 
 - [Awesome RL](#awesome-python)
    - [Books](#books)
+   - [Courses](#courses)
    - [Community](#community)
    - [Research Group](#research-group)
-   - [Industry Group China](#industry-group-china)
-
-
----
-## Community
-* [RLChina](http://rlchina.org/)
-* [DeepRLHub](http://www.deeprlhub.com/)
-
+   - [Industry Group](#industry-group)
 
 ---
 
 
 ## Books
 - English
-   - Reinforment Learning Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
+   - Reinforcement Learning Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html)
 - Chinese
    - 动手学强化学习 张伟楠
    - 深度强化学习落地指南 魏宁
@@ -31,11 +25,21 @@
    - EASY RL 强化学习教程
 
 ---
+## Courses
+- CS284
+
+---
+## Community
+* [RLChina](http://rlchina.org/)
+* [DeepRLHub](http://www.deeprlhub.com/)
+
+---
 
 ## Research Group
 * [Asia]()
    * [Casia]()
      * Haifeng Zhang [[Homepage]](https://pkuzhf.github.io/) [[Group]](http://marl.ia.ac.cn/)
+     * Zhiqiang Pu [[Homepage]](https://people.ucas.edu.cn/~pzq)
      * Dongbin Zhao [[Homepage]](https://people.ucas.ac.cn/~zhaodongbin)
      * Junliang Xing [[Homepage]](https://people.ucas.ac.cn/~jlxing)
    * [NJU]()
