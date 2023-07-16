@@ -22,6 +22,9 @@
 - English
    -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred]
    - Algorithm of Reinforcement Learning
+   - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
+   - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
+   - 
 - Chinese
    - 动手学强化学习 张伟楠 [Preferred]
    - 深度强化学习落地指南 魏宁
@@ -29,20 +32,22 @@
    - Easy RL 强化学习教程 王琦
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪
+   - 神经网络与深度学习 邱
 
 ---
 ## Courses
 - UC Berkeley CS294 (before), CS285 Sergey Levine
 - Stanford CS234 RL Emma Brunskill
 - MIT RL Dimitri Bertsekas
-- UCL RL David Silver [Preferred]
+- UCL RL David Silver [Preferred] and [advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
 - DRL Shusen Wang
 - RL and control THU
 - DRL Hung-Yi Lee
 - CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
 - Udacity
 - Lex Fridman
-
+- MoFan
+- ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
 ---
 ## Blog
 --
