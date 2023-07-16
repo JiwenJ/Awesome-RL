@@ -21,7 +21,7 @@
 ## Books
 - English
    -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred]
-   - Algorithm of Reinforcement Learning
+   - [Algorithm of Reinforcement Learning](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Algorithms%20for%20Reinforcement%20Learning%20%E4%B9%A6%E7%B1%8D.pdf)
    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
    - Deep-Reinforcement-Learning-Hands-On [pdf 2nd 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
@@ -31,7 +31,7 @@
    - 深度强化学习 王树森 [Preferred]
    - Easy RL 强化学习教程 王琦
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
-   - 深入浅出强化学习 郭宪
+   - 深入浅出强化学习 郭宪 [Preferred]
    - 神经网络与深度学习 邱
 
 ---
@@ -42,7 +42,7 @@
 - UCL RL David Silver [Preferred] and [advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
 - DRL Shusen Wang
 - RL and control THU
-- DRL Hung-Yi Lee
+- DRL Hung-Yi Lee [Preferred]
 - CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
 - Udacity
 - Lex Fridman
@@ -53,12 +53,16 @@
 --
 ---
 ## Zhihu
-
+- 郭宪
 --
 ## GitHub Repo
 [rlcode](https://github.com/rlcode/reinforcement-learning)
 
 --
+## Website
+- [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
+
+---
 ## Community
 * [RLChina](http://rlchina.org/)
 * [DeepRLHub](http://www.deeprlhub.com/)
