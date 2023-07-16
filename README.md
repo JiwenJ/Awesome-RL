@@ -33,6 +33,7 @@
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪 [Preferred]
    - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏
+   - 机器学习 周志华
 http://www.mit.edu/~dimitrib/RLbook.html
 ---
 ## Courses
