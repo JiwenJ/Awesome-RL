@@ -11,6 +11,8 @@
    - [Community](#community)
    - [Research Group](#research-group)
    - [Industry Group](#industry-group)
+   - [Discussion](#discussion)
+   - [Contribution](#contribution)
 
 ---
 
@@ -26,7 +28,7 @@
 
 ---
 ## Courses
-- CS284
+- UC Berkeley CS285
 
 ---
 ## Community
@@ -177,6 +179,10 @@
 * [MSRA]()
 * [MSRA]()
 * [MSRA]() -->
+---
+## Discussion
+1. Policy-based vs. Value-based
+---
 ## Contributing
 
 This is an active repository and your contributions are always welcome!
