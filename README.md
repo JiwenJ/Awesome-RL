@@ -27,6 +27,7 @@
    - 深度强化学习 王树森
    - EASY RL 强化学习教程
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
+   - 深入浅出强化学习 郭宪
 
 ---
 ## Courses
