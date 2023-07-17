@@ -54,18 +54,7 @@ http://www.mit.edu/~dimitrib/RLbook.html
 - 李升波
 - 
 ---
-## Blog
 
-- 刘建平
-
-
----
-
-## Zhihu
-
-- 郭宪
-  
----
 ## GitHub Repo
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
 - stable baseline
@@ -74,11 +63,21 @@ http://www.mit.edu/~dimitrib/RLbook.html
 ## Website
 - [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
 - [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
+- 郭宪
+- 刘建平
+
 
 ---
 ## Community
 * [RLChina](http://rlchina.org/)
 * [DeepRLHub](http://www.deeprlhub.com/)
+
+---
+## Conference & Journal
+
+Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, etc.
+
+Journal: AI, JMLR, JAIR, Machine Learning, JAAMAS, etc.
 
 ---
 
@@ -235,10 +234,9 @@ This is an active repository and your contributions are always welcome!
 
 If you find it helpful, please vote for it by adding 👍.
 
----
-
 If you have any question about this list, do not hesitate to contact me 191830064@smail.nju.edu.cn.
 
+---
 
 ## Reference
 * https://www.zhihu.com/collection/840642960
