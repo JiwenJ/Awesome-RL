@@ -11,6 +11,7 @@
    - [GitHub Repo](#github-repo)
    - [Website](#website)
    - [Activity](#activity)
+   - [Application](#application)
    - [Community](#community)
    - [Conference & Journal](#publish)
    - [Research Group](#research-group)
@@ -89,6 +90,12 @@
 - [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
 - AWS DeepRacer
 
+---
+## Application
+- [Quant](./doc/RL4Quant)
+- [Gaming](./doc/RL4Gaming)
+- [Optimization](./doc/RL4OPT)
+- [Recommendation](./doc/RL4Rem)
 ---
 ## Community
 * [RLChina](http://rlchina.org/)
