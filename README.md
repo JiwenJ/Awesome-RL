@@ -82,7 +82,7 @@
   
 ---
 ## Activity
-- Tencent KaiWu
+- [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
 - AWS DeepRacer
 
 ---
