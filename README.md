@@ -92,10 +92,10 @@
 
 ---
 ## Application
-- [Quant](./doc/RL4Quant)
-- [Gaming](./doc/RL4Gaming)
-- [Optimization](./doc/RL4OPT)
-- [Recommendation](./doc/RL4Rem)
+- [Quant](./doc/RL4Quant.md)
+- [Gaming](./doc/RL4Gaming.md)
+- [Optimization](./doc/RL4OPT.md)
+- [Recommendation](./doc/RL4Rem.md)
 ---
 ## Community
 * [RLChina](http://rlchina.org/)
@@ -252,7 +252,7 @@ Journal: AI, JMLR, JAIR, Machine Learning, JAAMAS, etc.
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
-2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy)
+2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy.md)
    
 ---
 ## Contributing
