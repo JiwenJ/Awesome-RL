@@ -252,7 +252,7 @@ Journal: AI, JMLR, JAIR, Machine Learning, JAAMAS, etc.
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
-2. [Philosophy of Reinforcement Learning](./doc/RL_philosophy)
+2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy)
    
 ---
 ## Contributing
