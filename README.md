@@ -107,7 +107,7 @@
 
 Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, etc.
 
-Journal: AI, JMLR, JAIR, Machine Learning, JAAMAS, etc.
+Journal: JMLR, JAIR, JAAMAS, etc.
 
 ---
 
