@@ -54,7 +54,7 @@
 - Udacity
 - Lex Fridman
 - MoFan
-- ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
+- [ETHz Dynamic Programming and Optimal Control Raffaello D'Andrea](https://idsc.ethz.ch/education/lectures/optimal-control.html) 
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
