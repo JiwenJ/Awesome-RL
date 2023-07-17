@@ -5,7 +5,7 @@
 
 
 
-- [Awesome RL](#awesome-python)
+- [Awesome RL](#awesome-rl)
    - [Books](#books)
    - [Courses](#courses)
    - [Community](#community)
@@ -21,51 +21,69 @@
 ## Books
 - English
    -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred]
-   - [Algorithm of Reinforcement Learning](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Algorithms%20for%20Reinforcement%20Learning%20%E4%B9%A6%E7%B1%8D.pdf)
+   - [Algorithm of Reinforcement Learning](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Algorithms%20for%20Reinforcement%20Learning%20%E4%B9%A6%E7%B1%8D.pdf) [[Official]](https://sites.ualberta.ca/~szepesva/rlbook.html)
    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
+   - [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8)
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
    - Deep-Reinforcement-Learning-Hands-On [pdf 2nd 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
-- Chinese
-   - 动手学强化学习 张伟楠 [Preferred]
+   - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
+- Chinese 
+   - [动手学强化学习 张伟楠])(https://hrl.boyuai.com/) [Preferred]
    - 深度强化学习落地指南 魏宁
    - 深度强化学习 王树森 [Preferred]
-   - Easy RL 强化学习教程 王琦
+   - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
    - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
    - 深入浅出强化学习 郭宪 [Preferred]
    - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏
    - 机器学习 周志华
-http://www.mit.edu/~dimitrib/RLbook.html
+
 ---
 ## Courses
 - UC Berkeley CS294 (before), CS285 Sergey Levine
-- Stanford CS234 RL Emma Brunskill
-- MIT RL Dimitri Bertsekas
-- UCL RL David Silver [Preferred] and [advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
-- DRL Shusen Wang
+- Stanford CS234 RL Emma Brunskill [[Bilibili]](https://www.bilibili.com/video/BV1sb411s7eQ/?from=search&seid=14467709922277911537&spm_id_from=333.337.0.0&vd_source=1b5a680450b015abb52a712f2dbac81a) [[Official]](http://web.stanford.edu/class/cs234/)
+- [MIT RL Dimitri Bertsekas](http://www.mit.edu/~dimitrib/RLbook.html)
+- [UCL RL David Silver](https://www.davidsilver.uk/teaching/)  and [Advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
+- Deep Reinforcement Learning Shusen Wang [[Bilibili]](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=1b5a680450b015abb52a712f2dbac81a)
 - RL and control THU
-- DRL Hung-Yi Lee [Preferred]
+- DRL Hung-Yi Lee [[Bilibili]](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e) [Preferred]
 - CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
 - Udacity
 - Lex Fridman
 - MoFan
 - ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
 - https://people.eecs.berkeley.edu/~pabbeel/
-- 唐杰
+- [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
-- 
+
+  
 ---
 
 ## GitHub Repo
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
-- stable baseline
+- [Deep-Reinforcement-Learning-Algorithms-with-PyTorch
+](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
+- [Deep-reinforcement-learning-with-pytorch
+](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
+- [reinforcement-learning most stars](https://github.com/dennybritz/reinforcement-learning)
+- OpenAI stable baseline
+- Google Dopamine
+- Intel Coach
 
---
+---
+
 ## Website
 - [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
 - [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
-- 郭宪
+- [强化学习知识大讲堂 郭宪](https://zhuanlan.zhihu.com/sharerl)
+- [智能单元](https://zhuanlan.zhihu.com/intelligentunit)
+- [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
+- [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
 - 刘建平
-
+  
+---
+## Activity
+- Tencent KaiWu
+- AWS DeepRacer
 
 ---
 ## Community
@@ -220,13 +238,10 @@ Journal: AI, JMLR, JAIR, Machine Learning, JAAMAS, etc.
   * FAIR
   * Salesforce Research
 
-<!-- * [MSRA]()
-* [MSRA]()
-* [MSRA]()
-* [MSRA]() -->
 ---
 ## Discussion
-1. Policy-based vs. Value-based
+1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
+   
 ---
 ## Contributing
 
@@ -234,7 +249,7 @@ This is an active repository and your contributions are always welcome!
 
 If you find it helpful, please vote for it by adding 👍.
 
-If you have any question about this list, do not hesitate to contact me 191830064@smail.nju.edu.cn.
+If you have any question about this list, do not hesitate to contact me at 191830064@smail.nju.edu.cn.
 
 ---
 
@@ -243,4 +258,5 @@ If you have any question about this list, do not hesitate to contact me 19183006
 * https://www.zhihu.com/question/516672871
 * http://www.deeprlhub.com/d/154/2
 * https://zhuanlan.zhihu.com/p/571011569
+* [东栏雪](https://www.zhihu.com/question/277325426/answer/2712724382)
 
