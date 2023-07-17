@@ -28,7 +28,7 @@
    - Deep-Reinforcement-Learning-Hands-On [pdf 2nd 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
    - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
 - Chinese 
-   - [动手学强化学习 张伟楠])(https://hrl.boyuai.com/) [Preferred]
+   - [动手学强化学习 张伟楠](https://hrl.boyuai.com/) [Preferred]
    - 深度强化学习落地指南 魏宁
    - 深度强化学习 王树森 [Preferred]
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
@@ -51,7 +51,7 @@
 - Lex Fridman
 - MoFan
 - ETHz [Dynamic Programming and Optimal Control](https://idsc.ethz.ch/education/lectures/optimal-control.html) Raffaello D'Andrea
-- https://people.eecs.berkeley.edu/~pabbeel/
+- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
 
@@ -65,7 +65,7 @@
 - [Deep-reinforcement-learning-with-pytorch
 ](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
 - [reinforcement-learning most stars](https://github.com/dennybritz/reinforcement-learning)
-- OpenAI stable baseline
+- OpenAI stable baseline3
 - Google Dopamine
 - Intel Coach
 
@@ -78,7 +78,7 @@
 - [智能单元](https://zhuanlan.zhihu.com/intelligentunit)
 - [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
 - [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
-- 刘建平
+- [博客园 刘建平](https://www.cnblogs.com/pinard/)
   
 ---
 ## Activity
