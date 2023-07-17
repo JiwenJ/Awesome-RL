@@ -25,7 +25,7 @@
    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
    - [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8)
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
-   - Deep-Reinforcement-Learning-Hands-On [pdf 2nd 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
+   - Deep-Reinforcement-Learning-Hands-On [pdf 2 edition 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
    - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
 - Chinese 
    - [动手学强化学习 张伟楠](https://hrl.boyuai.com/) [Preferred]
