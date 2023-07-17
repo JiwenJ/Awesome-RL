@@ -68,7 +68,7 @@
 ](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
 - [Deep-reinforcement-learning-with-pytorch
 ](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
-- [reinforcement-learning most stars](https://github.com/dennybritz/reinforcement-learning)
+- [reinforcement-learning [most stars]](https://github.com/dennybritz/reinforcement-learning)
 - OpenAI stable baseline3
 - Google Dopamine
 - Intel Coach
