@@ -12,7 +12,7 @@
    - [Website](#website)
    - [Activity](#activity)
    - [Community](#community)
-   - [Conference & Journal](#conference-&-journal)
+   - [Conference & Journal](#publish)
    - [Research Group](#research-group)
    - [Industry Group](#industry-group)
    - [Discussion](#discussion)
@@ -95,7 +95,7 @@
 * [DeepRLHub](http://www.deeprlhub.com/)
 
 ---
-## Conference & Journal
+## <div id="publish">Conference & Journal</div>
 
 Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, etc.
 
