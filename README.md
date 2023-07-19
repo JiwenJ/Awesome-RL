@@ -97,6 +97,7 @@
 - [Optimization](./doc/RL4OPT.md)
 - [Recommendation](./doc/RL4Rem.md)
 - [LLMs](./doc/LLM4RL.md)
+- [Distribution](./doc/DistributedRL.md)
 ---
 ## Community
 * [RLChina](http://rlchina.org/)
