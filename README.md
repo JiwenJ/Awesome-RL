@@ -102,6 +102,8 @@
 ## Community
 * [RLChina](http://rlchina.org/)
 * [DeepRLHub](http://www.deeprlhub.com/)
+* [智源社区](https://hub.baai.ac.cn/)
+* [上海AILAB-浦策](https://opendilab.net/home) 
 
 ---
 ## <div id="publish">Conference & Journal</div>
