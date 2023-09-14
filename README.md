@@ -268,6 +268,29 @@ If you find it helpful, please vote for it by adding 👍.
 If you have any question about this list, do not hesitate to contact me at 191830064@smail.nju.edu.cn.
 
 ---
+to be sorted
+NJU COURSE SITE: [强化学习2022 - Yang Yu (nju.edu.cn)](http://www.lamda.nju.edu.cn/introRL/)
+
+[dalmia/David-Silver-Reinforcement-learning: Notes for the Reinforcement Learning course by David Silver along with implementation of various algorithms. (github.com)](https://github.com/dalmia/David-Silver-Reinforcement-learning)
+
+[俞扬 (wolai.com)](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK)
+
+[强化学习路线推荐及资料整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/344196096)
+
+[Home - David Silver](https://www.davidsilver.uk/)
+
+[资源 | Richard Sutton经典教材《强化学习》第二版公布（附PDF下载） (sohu.com)](https://www.sohu.com/a/203049417_465975)
+
+[UCL多智能体机器学习课程上线，计算机系教授汪军主讲 (qq.com)](https://mp.weixin.qq.com/s/ogiiHtVgCdGV3lG079M_6g)
+
+[机器之心 (xiaoe-tech.com)](https://app6ca5octe2206.pc.xiaoe-tech.com/detail/p_603db816e4b0a77c389892d3/6)
+
+[PacktPublishing/Mastering-Reinforcement-Learning-with-Python: Mastering Reinforcement Learning with Python, published by Packt (github.com)](https://github.com/PacktPublishing/Mastering-Reinforcement-Learning-with-Python)
+
+
+
+塞尔布革模型
+--=
 
 ## Reference
 * https://www.zhihu.com/collection/840642960
