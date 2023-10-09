@@ -200,7 +200,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Tengyu Ma
      * Chelsea Finn
      * Andrew Ng
-   * [illinois]()
+   * [UIUC]()
      * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)     
    * [Duke]()
      * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
