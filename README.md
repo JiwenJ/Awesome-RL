@@ -59,7 +59,7 @@
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
-
+- Illinois [CS 542](http://nanjiang.cs.illinois.edu/cs542/) and [CS 443](http://nanjiang.cs.illinois.edu/cs443/), Nan Jiang
   
 ---
 
@@ -198,6 +198,8 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Tengyu Ma
      * Chelsea Finn
      * Andrew Ng
+   * [illinois]()
+     * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)     
    * [Duke]()
      * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
    * [Brown]()
