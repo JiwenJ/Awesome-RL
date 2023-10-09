@@ -26,7 +26,7 @@
 
 ## Books
 - English
-   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred][[old version]](http://incompleteideas.net/book/bookdraft2017nov5.pdf)[[newest version]](http://www.incompleteideas.net/book/RLbook2020.pdf)
+   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred] [[old version]](http://incompleteideas.net/book/bookdraft2017nov5.pdf) [[newest version]](http://www.incompleteideas.net/book/RLbook2020.pdf)
    - [Algorithm of Reinforcement Learning](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Algorithms%20for%20Reinforcement%20Learning%20%E4%B9%A6%E7%B1%8D.pdf) [[Official]](https://sites.ualberta.ca/~szepesva/rlbook.html)
    - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
    - [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8)
