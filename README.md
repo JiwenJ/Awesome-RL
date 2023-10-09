@@ -78,7 +78,15 @@
 - Michael Littman. Brown CSCI2951-F.
   
 ---
+## RL Research Topics
+- ### Approximate Dynamic Programming and Offline RL
+  - #### Online + Offline (Hybrid)
+    - Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning
+    - Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data
+    - Hybrid rl: Using both offline and online data can make rl efficient
+- Multi-agent RL
 
+---
 ## GitHub Repo
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
 - [Deep-Reinforcement-Learning-Algorithms-with-PyTorch
