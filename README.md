@@ -81,11 +81,14 @@
 ---
 ## RL Research Topics
 - ### Approximate Dynamic Programming and Offline RL
+   > Approximate Dynamic Programming (ADP) concerns obtaining approximate solutions to large planning problems, often with the help of sampling and function approximation. Many ADP methods can be considered as prototype algorithms for popular value-based RL algorithms used today, especially in the offline setting, so it is important to understand their behaviors and guarantees.
   - #### Online + Offline (Hybrid)
     - Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning
     - Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data
     - Hybrid rl: Using both offline and online data can make rl efficient
-- Multi-agent RL
+- ### Multi-agent RL
+- ### Off-policy Evaluation
+  > How to estimate the performance of a policy using data collected from a different policy? This question has important implications in safety and real-world applications of RL.
 
 ---
 ## GitHub Repo
