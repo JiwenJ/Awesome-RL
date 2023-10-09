@@ -206,8 +206,6 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
    * [Brown]()
      * Michael Littman 
-   * [UIUC]()
-     * Nan Jiang [[Homepage]](https://nanjiang.cs.illinois.edu/)
    * [Columbia]()
      * Daniel Russo 
      * Shipra Agrawal
