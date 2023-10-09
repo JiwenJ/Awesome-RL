@@ -32,8 +32,10 @@
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
    - Deep-Reinforcement-Learning-Hands-On [pdf 2 edition]
    - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
-   - []()
-   - []()
+   - [Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs-lecture.pdf)
+   - [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf)\
+   - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
+   - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
 - Chinese 
    - [动手学强化学习 张伟楠](https://hrl.boyuai.com/) [Preferred]
    - 深度强化学习落地指南 魏宁
@@ -43,6 +45,7 @@
    - 深入浅出强化学习 郭宪 [Preferred]
    - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏
    - 机器学习 周志华
+   - 
 
 ---
 ## Courses
@@ -62,6 +65,17 @@
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
 - UIUC, [CS 542](http://nanjiang.cs.illinois.edu/cs542/), [CS 443](http://nanjiang.cs.illinois.edu/cs443/), Nan Jiang.
+- R. Srikant. UIUC ECE 586.
+- Ron Parr. Duke CompSci 590.2.
+- Ben Van Roy. Stanford MS&E 338.
+- Ambuj Tewari and Susan Murphy. U Michigan STATS 710.
+- Susan Murphy. Harvard Stat 234.
+- Alekh Agarwal and Alex Slivkins. Columbia COMS E6998.001.
+- Daniel Russo. Columbia B9140-001.
+- Shipra Agrawal. Columbia IEOR 8100.
+- Emma Brunskill CMU 15-889e.
+- Philip Thomas. U Mass CMPSCI 687.
+- Michael Littman. Brown CSCI2951-F.
   
 ---
 
@@ -257,6 +271,10 @@ Journal: JMLR, JAIR, JAAMAS, etc.
   * FAIR
   * Salesforce Research
 
+---
+## Misc
+- [Useful inequalities cheat sheet](http://www.lkozma.net/inequalities_cheat_sheet/)
+- [Concentration of measure](https://www.stat.cmu.edu/~larry/=sml/Concentration.pdf)
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
