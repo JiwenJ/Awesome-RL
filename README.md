@@ -33,7 +33,6 @@
    - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
    - Deep-Reinforcement-Learning-Hands-On [pdf 2 edition]
    - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
-   - [Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs-lecture.pdf)
    - [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf)
    - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
    - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
