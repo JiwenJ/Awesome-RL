@@ -8,6 +8,7 @@
 - [Awesome RL](#awesome-rl)
    - [Books](#books)
    - [Courses](#courses)
+   - [Research Topics](#rl-research-topics)
    - [GitHub Repo](#github-repo)
    - [Website](#website)
    - [Activity](#activity)
