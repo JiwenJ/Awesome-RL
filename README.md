@@ -59,7 +59,7 @@
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
-- Illinois [CS 542](http://nanjiang.cs.illinois.edu/cs542/) and [CS 443](http://nanjiang.cs.illinois.edu/cs443/), Nan Jiang
+- UIUC, [CS 542](http://nanjiang.cs.illinois.edu/cs542/), [CS 443](http://nanjiang.cs.illinois.edu/cs443/), Nan Jiang.
   
 ---
 
@@ -116,7 +116,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
 
 ## Research Group
 * [Asia]()
-   * [Casia]()
+   * [CASIA]()
      * Haifeng Zhang [[Homepage]](https://pkuzhf.github.io/) [[Group]](http://marl.ia.ac.cn/)
      * Zhiqiang Pu [[Homepage]](https://people.ucas.edu.cn/~pzq)
      * Dongbin Zhao [[Homepage]](https://people.ucas.ac.cn/~zhaodongbin)
@@ -159,7 +159,9 @@ Journal: JMLR, JAIR, JAAMAS, etc.
    * [NTU]()
      * Bo An [[Homepage]](https://personal.ntu.edu.sg/boan/index.html)
    * [NUDT]()
-     * Xin Xv 
+     * Xin Xv
+   * [SYSU]()
+     * Chao Yu [[Homepage]](https://cse.sysu.edu.cn/content/4883) 
 * [North America]()
    * [Mcgill]()
      * Doina Precup
