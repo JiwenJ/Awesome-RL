@@ -14,7 +14,7 @@
 
 
 
-
+## Contents
 - [Awesome RL](#awesome-rl)
    - [Books](#books)
    - [Courses](#courses)
@@ -30,6 +30,9 @@
    - [Discussion](#discussion)
    - [Contributing](#contributing)
    - [Reference](#reference)
+ 
+     
+
 
 ---
 
@@ -315,7 +318,9 @@ This is an active repository and your contributions are always welcome!
 
 If you find it helpful, please vote for it by adding 👍.
 
-If you have any question about this list, do not hesitate to contact me at 191830064@smail.nju.edu.cn.
+If you have any question about this list, do not hesitate to contact me at jiangjiwen328@gmail.com.
+
+**[⬆ back to top](#contents)**
 
 ---
 
@@ -327,4 +332,6 @@ If you have any question about this list, do not hesitate to contact me at 19183
 * http://www.deeprlhub.com/d/154/2
 * https://zhuanlan.zhihu.com/p/571011569
 * [东栏雪](https://www.zhihu.com/question/277325426/answer/2712724382)
+
+**[⬆ back to top](#contents)**
 
