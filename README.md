@@ -62,17 +62,18 @@
 
 ---
 ## Courses
+- [UCL RL David Silver](https://www.davidsilver.uk/teaching/)  and [Advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
+- MoFan
+- DRL Hung-Yi Lee [[Bilibili]](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e) [Preferred]
+- Deep Reinforcement Learning. Shusen Wang. [[Bilibili]](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=1b5a680450b015abb52a712f2dbac81a)
+- Bolei Zhou.
 - UC Berkeley CS294 (before), CS285 Sergey Levine
 - Stanford CS234 RL Emma Brunskill [[Bilibili]](https://www.bilibili.com/video/BV1sb411s7eQ/?from=search&seid=14467709922277911537&spm_id_from=333.337.0.0&vd_source=1b5a680450b015abb52a712f2dbac81a) [[Official]](http://web.stanford.edu/class/cs234/)
 - [MIT RL Dimitri Bertsekas](http://www.mit.edu/~dimitrib/RLbook.html)
-- [UCL RL David Silver](https://www.davidsilver.uk/teaching/)  and [Advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
-- Deep Reinforcement Learning Shusen Wang [[Bilibili]](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=1b5a680450b015abb52a712f2dbac81a)
 - RL and control THU
-- DRL Hung-Yi Lee [[Bilibili]](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e) [Preferred]
 - CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
 - Udacity
 - Lex Fridman
-- MoFan
 - [ETHz Dynamic Programming and Optimal Control Raffaello D'Andrea](https://idsc.ethz.ch/education/lectures/optimal-control.html) 
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
