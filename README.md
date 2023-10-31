@@ -62,11 +62,12 @@
 
 ---
 ## Courses
-- [UCL RL David Silver](https://www.davidsilver.uk/teaching/)  and [Advanced](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind)
+- UCL. [Reinforcement Learning](https://www.davidsilver.uk/teaching/). [David Silver](https://www.davidsilver.uk/). Difficulty: [&#9733;]
+- UCL. [Advanced Topics](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind). [David Silver](https://www.davidsilver.uk/).
 - MoFan
-- DRL Hung-Yi Lee [[Bilibili]](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e) [Preferred]
+- National Taiwan University. DRL. Hung-Yi Lee. [[Bilibili]](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e) [Preferred] Difficulty: [&#9733;]
 - Deep Reinforcement Learning. Shusen Wang. [[Bilibili]](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=1b5a680450b015abb52a712f2dbac81a)
-- Bolei Zhou.
+- UCLA. [Intro to Reinforcement Learning](https://www.youtube.com/watch?v=IkEF4LpH5Ys&list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD). Bolei Zhou. Difficulty: [&#9733;]
 - UC Berkeley CS294 (before), CS285 Sergey Levine
 - Stanford CS234 RL Emma Brunskill [[Bilibili]](https://www.bilibili.com/video/BV1sb411s7eQ/?from=search&seid=14467709922277911537&spm_id_from=333.337.0.0&vd_source=1b5a680450b015abb52a712f2dbac81a) [[Official]](http://web.stanford.edu/class/cs234/)
 - [MIT RL Dimitri Bertsekas](http://www.mit.edu/~dimitrib/RLbook.html)
@@ -90,7 +91,7 @@
 - Emma Brunskill CMU 15-889e.
 - Philip Thomas. U Mass CMPSCI 687.
 - Michael Littman. Brown CSCI2951-F.
-- NJU, [IntroRL](http://www.lamda.nju.edu.cn/introRL/), [Yang Yu](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK).
+- NJU. [IntroRL](http://www.lamda.nju.edu.cn/introRL/). [Yang Yu](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK).
   
 ---
 ## RL Research Topics
