@@ -1,7 +1,14 @@
-# <div align="center"> Awesome RL</div>
-<div align="center"> 
-   <a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg" ></a>
-</div>
+<h2 align="center"> Awesome RL</h2>
+
+
+<p align="center">
+   <a href="https://github.com/sindresorhus/awesome">
+   <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
+   </a>
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg?longCache=true" alt="MIT License">
+  </a>
+</p>
 
 
 
