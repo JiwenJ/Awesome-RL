@@ -1,10 +1,16 @@
 
-### <div align="center">  Awesome RL
+<h1 align="center">Awesome RL</h3>
 
+<div align="center">
+   
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![GitHub license](https://img.shields.io/github/license/antoinezanardi/werewolves-assistant-api-next.svg)](./)
+![Static Badge](https://img.shields.io/badge/Status-Maintaining-%23ecfc03)
+![Static Badge](https://img.shields.io/badge/PRs-Welcome-%23fc2003)
+![Static Badge](https://img.shields.io/badge/License-MIT-%23e0ebdf)
 
 
+
+</div>
 
 
 
