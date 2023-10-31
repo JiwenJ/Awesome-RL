@@ -111,6 +111,7 @@
 - OpenAI stable baseline3
 - Google Dopamine
 - Intel Coach
+- Clean RL
 
 ---
 
