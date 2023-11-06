@@ -33,7 +33,7 @@
    - Deep-Reinforcement-Learning-Hands-On [pdf 2 edition 可以关注公众号灯下漫谈CS 并且回复Hands免费领取]
    - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
 - Chinese 
-   - [动手学强化学习 张伟楠](https://hrl.boyuai.com/) [Preferred]
+   - [动手学强化学习](https://hrl.boyuai.com/)  张伟楠[Preferred]
    - 深度强化学习落地指南 魏宁
    - 深度强化学习 王树森 [Preferred]
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
