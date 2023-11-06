@@ -52,7 +52,7 @@
 - Chinese
    - [动手学强化学习](https://hrl.boyuai.com/) 张伟楠
    - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf) 
+   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf)
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
    - 强化学习实战: 强化学习在阿里的技术演进和业务创新 笪庆 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%EF%BC%9A%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%9C%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E5%92%8C%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0%20(%E7%AC%AA%E5%BA%86%EF%BC%8C%E6%9B%BE%E5%AE%89%E7%A5%A5).pdf)
    - 深度强化学习 董豪 [[PDF]](https://deepreinforcementlearningbook.org/)
@@ -326,7 +326,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
 ---
 ## Contributing
 
-This is an active repository and your contributions are always welcome!
+This is an active repository and it is time-consuming to maintain the content. **So your contributions really matter!**
 
 If you find it helpful, please vote for it by adding 👍.
 
