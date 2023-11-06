@@ -50,15 +50,14 @@
    - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
    - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
 - Chinese 
-   - [动手学强化学习 张伟楠](https://hrl.boyuai.com/) [Preferred]
-   - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf) [Preferred]
+   - [动手学强化学习](https://hrl.boyuai.com/), 张伟楠, [Preferred]
+   - 深度强化学习落地指南, 魏宁
+   - 深度强化学习, 王树森, [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf), [Preferred]
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
-   - 深度强化学习 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
-   - 深入浅出强化学习 郭宪 [Preferred]
-   - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏
-   - 机器学习 周志华
-   - 
+   - 深度强化学习, 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
+   - 深入浅出强化学习, 郭宪 [Preferred]
+   - [神经网络与深度学习](https://nndl.github.io/), 邱锡鹏
+   - 机器学习, 周志华
 
 ---
 ## Courses
