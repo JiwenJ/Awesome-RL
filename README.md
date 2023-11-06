@@ -31,7 +31,7 @@
    - [Contributing](#contributing)
    - [Reference](#reference)
 
-     
+
 
 
 ---
@@ -49,19 +49,24 @@
    - [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf)
    - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
    - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
-- Chinese 
-  
-   - [动手学强化学习](https://hrl.boyuai.com/)  张伟楠[Preferred]
+- Chinese
+   - [动手学强化学习](https://hrl.boyuai.com/) 张伟楠
    - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森 [Preferred]
-   - [动手学强化学习](https://hrl.boyuai.com/), 张伟楠, [Preferred]
-   - 深度强化学习落地指南, 魏宁
-   - 深度强化学习, 王树森, [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf), [Preferred]
+   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf), [Preferred]
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
-   - 深度强化学习, 董豪 [[pdf]](https://deepreinforcementlearningbook.org/)
-   - 深入浅出强化学习, 郭宪 [Preferred]
-   - [神经网络与深度学习](https://nndl.github.io/), 邱锡鹏
-   - 机器学习, 周志华
+   - 强化学习实战: 强化学习在阿里的技术演进和业务创新 笪庆 [[PDF]]()
+   - 深度强化学习 董豪 [[PDF]](https://deepreinforcementlearningbook.org/)
+   - 深入浅出强化学习 郭宪 [[PDF]]()
+   - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏 [[PDF]](https://nndl.github.io/nndl-book.pdf)
+   - 机器学习 周志华 [[PDF]]()
+   - 统计强化学习: 现代机器学习方法 杉山将 [[PDF]]()
+   - 深度强化学习核心算法与应用 陈世勇 [[PDF]]()
+   - 深度强化学习边做边学 小川雄太郎 [[PDF]]()
+   - 强化学习 邹伟 [[PDF]]()
+   - 强化学习精要: 核心算法与TensorFlow实现 冯超 [[PDF]]()
+   - 强化学习入门: 从原理到实践 叶强 [[PDF]]()
+
+   *note: 作者均只列举第一人*
 
 ---
 ## Courses
@@ -78,7 +83,7 @@
 - CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
 - Udacity
 - Lex Fridman
-- [ETHz Dynamic Programming and Optimal Control Raffaello D'Andrea](https://idsc.ethz.ch/education/lectures/optimal-control.html) 
+- [ETHz Dynamic Programming and Optimal Control Raffaello D'Andrea](https://idsc.ethz.ch/education/lectures/optimal-control.html)
 - [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
 - [高级机器学习 唐杰](https://www.aminer.cn/aml)
 - 李升波
@@ -97,7 +102,7 @@
 - NJU. [IntroRL](http://www.lamda.nju.edu.cn/introRL/). [Yang Yu](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK).
 - CMU 16 745
 - CSE 691 asu
-  
+
 ---
 ## RL Research Topics
 - ### Approximate Dynamic Programming and Offline RL
@@ -133,7 +138,7 @@
 - [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
 - [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
 - [博客园 刘建平](https://www.cnblogs.com/pinard/)
-  
+
 ---
 ## Activity
 - [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
@@ -152,7 +157,7 @@
 * [RLChina](http://rlchina.org/)
 * [DeepRLHub](http://www.deeprlhub.com/)
 * [智源社区](https://hub.baai.ac.cn/)
-* [上海AILAB-浦策](https://opendilab.net/home) 
+* [上海AILAB-浦策](https://opendilab.net/home)
 
 ---
 ## <div id="publish">Conference & Journal</div>
@@ -175,7 +180,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Yinghuan Shi [[Homepage]](https://cs.nju.edu.cn/shiyh/index.htm)
      * Yang Gao [[Homepage]](https://cs.nju.edu.cn/gaoyang/index.htm)
      * Zongzhang Zhang [[Homepage]](https://ai.nju.edu.cn/zhangzongzhang/index.htm)
-     * NJU SME Faculty 
+     * NJU SME Faculty
    * [SJTU]()
       * Yong Yu [[Homepage]](https://apex.sjtu.edu.cn/members/yyu)
       * Weinan Zhang [[Homepage]](http://wnzhang.net/)
@@ -210,13 +215,13 @@ Journal: JMLR, JAIR, JAAMAS, etc.
    * [NUDT]()
      * Xin Xv
    * [SYSU]()
-     * Chao Yu [[Homepage]](https://cse.sysu.edu.cn/content/4883) 
+     * Chao Yu [[Homepage]](https://cse.sysu.edu.cn/content/4883)
 * [North America]()
    * [Mcgill]()
      * Doina Precup
      * Joelle Pineau
    * [Alberta]()
-     * Michael Bowling [[Homepage]]() 
+     * Michael Bowling [[Homepage]]()
    * [UCLA]()
       * Bolei Zhou  [[Homepage]](https://boleizhou.github.io/)
    * [MIT]()
@@ -242,7 +247,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      *  Ken Goldberg
      *  Stuart Russell
    * [Standford]()
-     * Benjamin Van Roy 
+     * Benjamin Van Roy
      * Emma Brunskill
      * Mykel Kochenderfer
      * Dorsa Sadigh
@@ -250,13 +255,13 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Chelsea Finn
      * Andrew Ng
    * [UIUC]()
-     * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)     
+     * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)
    * [Duke]()
      * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
    * [Brown]()
-     * Michael Littman 
+     * Michael Littman
    * [Columbia]()
-     * Daniel Russo 
+     * Daniel Russo
      * Shipra Agrawal
      * Alekh Agarwal
      * Alex Slivkins
@@ -265,7 +270,7 @@ Journal: JMLR, JAIR, JAAMAS, etc.
      * Sheila McIlraith [[Homepage]](https://www.cs.toronto.edu/~sheila/)
 * [Europe]()
    * [INRIA]()
-     * Flower Team [[Homepage]](https://flowers.inria.fr/) 
+     * Flower Team [[Homepage]](https://flowers.inria.fr/)
    * [ETH Zurich]()
      * Andreas Krause [[Homepage]](https://las.inf.ethz.ch/krausea)
    * [Oxford]()
@@ -312,12 +317,12 @@ Journal: JMLR, JAIR, JAAMAS, etc.
 - [dalmia/David-Silver-Reinforcement-learning: Notes for the Reinforcement Learning course by David Silver along with implementation of various algorithms. (github.com)](https://github.com/dalmia/David-Silver-Reinforcement-learning)
 - [强化学习路线推荐及资料整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/344196096)
 - [PacktPublishing/Mastering-Reinforcement-Learning-with-Python: Mastering Reinforcement Learning with Python, published by Packt (github.com)](https://github.com/PacktPublishing/Mastering-Reinforcement-Learning-with-Python)
-  
+
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
 2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy.md)
-  
+
 ---
 ## Contributing
 
