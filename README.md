@@ -52,19 +52,19 @@
 - Chinese
    - [动手学强化学习](https://hrl.boyuai.com/) 张伟楠
    - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf), [Preferred]
+   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf) 
    - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
-   - 强化学习实战: 强化学习在阿里的技术演进和业务创新 笪庆 [[PDF]]()
+   - 强化学习实战: 强化学习在阿里的技术演进和业务创新 笪庆 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%EF%BC%9A%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%9C%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E5%92%8C%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0%20(%E7%AC%AA%E5%BA%86%EF%BC%8C%E6%9B%BE%E5%AE%89%E7%A5%A5).pdf)
    - 深度强化学习 董豪 [[PDF]](https://deepreinforcementlearningbook.org/)
-   - 深入浅出强化学习 郭宪 [[PDF]]()
+   - 深入浅出强化学习 郭宪 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%8E%9F%E7%90%86%E5%85%A5%E9%97%A8-%E9%83%AD%E5%AE%AA-%E6%96%B9%E5%8B%87%E7%BA%AF.pdf)
    - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏 [[PDF]](https://nndl.github.io/nndl-book.pdf)
    - 机器学习 周志华 [[PDF]]()
-   - 统计强化学习: 现代机器学习方法 杉山将 [[PDF]]()
-   - 深度强化学习核心算法与应用 陈世勇 [[PDF]]()
-   - 深度强化学习边做边学 小川雄太郎 [[PDF]]()
-   - 强化学习 邹伟 [[PDF]]()
-   - 强化学习精要: 核心算法与TensorFlow实现 冯超 [[PDF]]()
-   - 强化学习入门: 从原理到实践 叶强 [[PDF]]()
+   - 统计强化学习: 现代机器学习方法 杉山将 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E7%BB%9F%E8%AE%A1%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E7%8E%B0%E4%BB%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%89%E5%B1%B1%E5%B0%86.pdf)
+   - 深度强化学习核心算法与应用 陈世勇 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8-(%E9%99%88%E4%B8%96%E5%8B%87-%E8%8B%8F%E5%8D%9A%E8%A7%88-%E6%9D%A8%E6%95%AC%E6%96%87).pdf)
+   - 深度强化学习边做边学 小川雄太郎 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%BE%B9%E5%81%9A%E8%BE%B9%E5%AD%A6%20(%E5%B0%8F%E5%B7%9D%E9%9B%84%E5%A4%AA%E9%83%8E(Yutaro%20Ogawa)%E8%91%97%20%E7%94%B3%E5%AF%8C%E9%A5%B6%E4%BA%8E%E5%83%A1%E8%AF%91).pdf)
+   - 强化学习 邹伟 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20(%E9%82%B9%E4%BC%9F%2C%20%E9%AC%B2%E7%8E%B2%2C%20%E5%88%98%E6%98%B1%E6%9D%93).pdf)
+   - 强化学习精要: 核心算法与TensorFlow实现 冯超 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%B2%BE%E8%A6%81%20%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E4%B8%8ETensorFlow%E5%AE%9E%E7%8E%B0%20(%E5%86%AF%E8%B6%85).pdf)
+   - 强化学习入门: 从原理到实践 叶强 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E4%BB%8E%E5%8E%9F%E7%90%86%E5%88%B0%E5%AE%9E%E8%B7%B5%20(%E5%8F%B6%E5%BC%BA%20%20%E9%97%AB%E7%BB%B4%E6%96%B0%20%20%E9%BB%8E%E6%96%8C).pdf)
 
    *note: 作者均只列举第一人*
 
