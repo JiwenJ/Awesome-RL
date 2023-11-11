@@ -49,6 +49,7 @@
    - [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf)
    - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
    - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
+   - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
 - Chinese
    - [动手学强化学习](https://hrl.boyuai.com/) 张伟楠
    - 深度强化学习落地指南 魏宁
