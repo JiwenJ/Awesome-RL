@@ -310,6 +310,8 @@ Journal: JMLR, JAIR, JAAMAS, etc.
   * Google Brain
   * FAIR
   * Salesforce Research
+ 
+**[⬆ back to top](#contents)**
 
 ---
 ## Misc
@@ -319,10 +321,15 @@ Journal: JMLR, JAIR, JAAMAS, etc.
 - [强化学习路线推荐及资料整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/344196096)
 - [PacktPublishing/Mastering-Reinforcement-Learning-with-Python: Mastering Reinforcement Learning with Python, published by Packt (github.com)](https://github.com/PacktPublishing/Mastering-Reinforcement-Learning-with-Python)
 
+**[⬆ back to top](#contents)**
+
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
 2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy.md)
+
+
+**[⬆ back to top](#contents)**
 
 ---
 ## Contributing
