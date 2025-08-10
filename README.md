@@ -103,6 +103,7 @@
 - NJU. [IntroRL](http://www.lamda.nju.edu.cn/introRL/). [Yang Yu](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK).
 - CMU 16 745
 - CSE 691 asu
+- UCLA, [Reinforcement Learning of Large Language Models, Spring 2025](https://ernestryu.com/courses/RL-LLM.html)  Ernest K. Ryu
 
 ---
 ## RL Research Topics
