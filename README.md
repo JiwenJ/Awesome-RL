@@ -1,363 +1,425 @@
-
-<h1 align="center">Awesome RL</h3>
+<h1 align="center">Awesome RL</h1>
 
 <div align="center">
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-![Static Badge](https://img.shields.io/badge/Status-Maintaining-%23ecfc03)
-![Static Badge](https://img.shields.io/badge/PRs-Welcome-%23fc2003)
-![Static Badge](https://img.shields.io/badge/License-MIT-%23e0ebdf)
-
-
+![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
+![PRs](https://img.shields.io/badge/PRs-Welcome-red)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 </div>
 
+A curated list of reinforcement learning resources, covering foundations, theory, algorithms, benchmarks, toolkits, applications, and modern RL for LLMs and agents.
 
+This repository aims to be a **high-signal entry point** rather than an unstructured link dump:
+- prefer official links when possible;
+- prioritize resources that are still useful for study or research;
+- cover both **classic RL** and **modern post-training / agent RL** directions.
+
+---
 
 ## Contents
-- [Awesome RL](#awesome-rl)
-   - [Books](#books)
-   - [Courses](#courses)
-   - [Research Topics](#rl-research-topics)
-   - [GitHub Repo](#github-repo)
-   - [Website](#website)
-   - [Activity](#activity)
-   - [Application](#application)
-   - [Community](#community)
-   - [Conference & Journal](#publish)
-   - [Research Group](#research-group)
-   - [Industry Group](#industry-group)
-   - [Discussion](#discussion)
-   - [Contributing](#contributing)
-   - [Reference](#reference)
-
-
-
+- [How to use this repo](#how-to-use-this-repo)
+- [Learning roadmap](#learning-roadmap)
+- [Books](#books)
+- [Courses](#courses)
+- [Surveys and reading lists](#surveys-and-reading-lists)
+- [Canonical papers by topic](#canonical-papers-by-topic)
+- [Libraries and frameworks](#libraries-and-frameworks)
+- [Environments, benchmarks, and datasets](#environments-benchmarks-and-datasets)
+- [Applications](#applications)
+- [Websites and communities](#websites-and-communities)
+- [Conferences and journals](#conferences-and-journals)
+- [Selected research groups](#selected-research-groups)
+- [Contributing](#contributing)
+- [Reference](#reference)
 
 ---
 
+## How to use this repo
+
+Different readers usually need different entry points:
+
+- **Beginner**
+  - Start with Sutton & Barto + David Silver.
+  - Then learn DQN, policy gradient, actor-critic, PPO, SAC.
+  - After that, move to offline RL / model-based RL / multi-agent RL.
+
+- **Research student**
+  - Build a clean map of the field first: foundations, theory, benchmarks, classical papers.
+  - Then pick one line: offline RL, MBRL, MARL, safe RL, RLHF, agent RL, robotics, recommender systems.
+
+- **Engineer / practitioner**
+  - Focus on libraries, reproducible baselines, benchmarks, evaluation, and deployment constraints.
+  - For LLM post-training, pay special attention to reward design, data quality, rollout system design, and verifier-based training.
+
+---
+
+## Learning roadmap
+
+### Stage 0. Prerequisites
+- Linear algebra, probability, optimization
+- Markov chains / Markov decision processes (MDP)
+- Basic deep learning and supervised learning
+
+### Stage 1. Tabular RL and fundamentals
+- Bandits
+- Dynamic programming
+- Monte Carlo methods
+- TD learning
+- Q-learning / SARSA
+- Exploration vs. exploitation
+
+Recommended:
+- Sutton & Barto
+- David Silver's RL course
+
+### Stage 2. Deep RL basics
+- DQN family
+- Policy gradient
+- Actor-critic
+- PPO / A2C / A3C
+- Continuous control: DDPG / TD3 / SAC
+
+Recommended:
+- Spinning Up
+- CS285 / CS234
+- CleanRL / Stable-Baselines3
+
+### Stage 3. Major modern directions
+- Model-based RL and world models
+- Offline RL
+- Multi-agent RL
+- Safe RL / constrained RL
+- Hierarchical RL
+- Distributional RL
+- RL for robotics and control
+
+### Stage 4. RL for foundation models and agents
+- RLHF / RLAIF
+- Preference learning and ranking losses
+- Verifier-based RL
+- Tool-use and agent trajectories
+- Test-time planning, long-horizon credit assignment, environment interaction
+
+---
 
 ## Books
-- English
-   -  Reinforcement Learning: An Introduction [[Book]](http://incompleteideas.net/book/ebook/the-book.html) [[Code]](http://incompleteideas.net/book/code/code.html) [Preferred] [[old version]](http://incompleteideas.net/book/bookdraft2017nov5.pdf) [[newest version]](http://incompleteideas.net/book/RLbook2020.pdf)
-   - [Algorithm of Reinforcement Learning](https://github.com/borninfreedom/DeepLearning/blob/master/Books/Algorithms%20for%20Reinforcement%20Learning%20%E4%B9%A6%E7%B1%8D.pdf) [[Official]](https://sites.ualberta.ca/~szepesva/rlbook.html)
-   - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
-   - [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8)
-   - [Dynamic programming and optimal control](https://web.mit.edu/dimitrib/www/DP2_Chapter%204_UPDATED.pdf)
-   - Deep-Reinforcement-Learning-Hands-On [pdf 2 edition]
-   - [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html)
-   - [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/rltheorybook_AJKS.pdf)
-   - Markov Decision Processes: Discrete Stochastic Dynamic Programming, by Martin Puterman.
-   - Neuro-Dynamic Programming, by Dimitri Bertsekas and John Tsitsiklis.
-   - [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/)
-- Chinese
-   - [动手学强化学习](https://hrl.boyuai.com/) 张伟楠
-   - 深度强化学习落地指南 魏宁
-   - 深度强化学习 王树森 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20Deep%20Reinforcement%20Learning%20(%E7%8E%8B%E6%A0%91%E6%A3%AE%20%E9%BB%8E%E5%BD%A7%E5%90%9B%20%E5%BC%A0%E5%BF%97%E5%8D%8E).pdf)
-   - [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
-   - 强化学习实战: 强化学习在阿里的技术演进和业务创新 笪庆 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%AE%9E%E6%88%98%EF%BC%9A%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%9C%A8%E9%98%BF%E9%87%8C%E7%9A%84%E6%8A%80%E6%9C%AF%E6%BC%94%E8%BF%9B%E5%92%8C%E4%B8%9A%E5%8A%A1%E5%88%9B%E6%96%B0%20(%E7%AC%AA%E5%BA%86%EF%BC%8C%E6%9B%BE%E5%AE%89%E7%A5%A5).pdf)
-   - 深度强化学习 董豪 [[PDF]](https://deepreinforcementlearningbook.org/)
-   - 深入浅出强化学习 郭宪 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E5%8E%9F%E7%90%86%E5%85%A5%E9%97%A8-%E9%83%AD%E5%AE%AA-%E6%96%B9%E5%8B%87%E7%BA%AF.pdf)
-   - [神经网络与深度学习](https://nndl.github.io/) 邱锡鹏 [[PDF]](https://nndl.github.io/nndl-book.pdf)
-   - 机器学习 周志华 [[PDF]]()
-   - 统计强化学习: 现代机器学习方法 杉山将 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E7%BB%9F%E8%AE%A1%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%EF%BC%9A%E7%8E%B0%E4%BB%A3%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95-%E6%9D%89%E5%B1%B1%E5%B0%86.pdf)
-   - 深度强化学习核心算法与应用 陈世勇 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E4%B8%8E%E5%BA%94%E7%94%A8-(%E9%99%88%E4%B8%96%E5%8B%87-%E8%8B%8F%E5%8D%9A%E8%A7%88-%E6%9D%A8%E6%95%AC%E6%96%87).pdf)
-   - 深度强化学习边做边学 小川雄太郎 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E8%BE%B9%E5%81%9A%E8%BE%B9%E5%AD%A6%20(%E5%B0%8F%E5%B7%9D%E9%9B%84%E5%A4%AA%E9%83%8E(Yutaro%20Ogawa)%E8%91%97%20%E7%94%B3%E5%AF%8C%E9%A5%B6%E4%BA%8E%E5%83%A1%E8%AF%91).pdf)
-   - 强化学习 邹伟 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%20(%E9%82%B9%E4%BC%9F%2C%20%E9%AC%B2%E7%8E%B2%2C%20%E5%88%98%E6%98%B1%E6%9D%93).pdf)
-   - 强化学习精要: 核心算法与TensorFlow实现 冯超 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%B2%BE%E8%A6%81%20%E6%A0%B8%E5%BF%83%E7%AE%97%E6%B3%95%E4%B8%8ETensorFlow%E5%AE%9E%E7%8E%B0%20(%E5%86%AF%E8%B6%85).pdf)
-   - 强化学习入门: 从原理到实践 叶强 [[PDF]](https://github.com/JiwenJ/Public-Books/blob/main/rl/%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8%EF%BC%9A%E4%BB%8E%E5%8E%9F%E7%90%86%E5%88%B0%E5%AE%9E%E8%B7%B5%20(%E5%8F%B6%E5%BC%BA%20%20%E9%97%AB%E7%BB%B4%E6%96%B0%20%20%E9%BB%8E%E6%96%8C).pdf)
 
-   *note: 作者均只列举第一人*
+### Foundations
+- [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html) — Richard S. Sutton, Andrew G. Barto. The default starting point.
+- [Algorithms for Reinforcement Learning](https://sites.ualberta.ca/~szepesva/rlbook.html) — Csaba Szepesvári. Concise and theory-friendly.
+- [Dynamic Programming and Optimal Control](http://www.mit.edu/~dimitrib/dpbook.html) — Dimitri P. Bertsekas. Classic control / DP perspective.
+- [Reinforcement Learning and Optimal Control](http://www.athenasc.com/rlbook_athena.html) — Dimitri P. Bertsekas. Strong bridge between RL and control.
+- [Reinforcement Learning: Theory and Algorithms](https://rltheorybook.github.io/) — Alekh Agarwal, Nan Jiang, Sham Kakade, Wen Sun. Modern theory-oriented reference.
+- [Reinforcement Learning for Sequential Decision and Optimal Control](https://link.springer.com/book/10.1007/978-981-19-7784-8) — Shengbo Eben Li, et al.
+
+### Multi-agent RL
+- [Multi-Agent Reinforcement Learning: Foundations and Modern Approaches](https://www.marl-book.com/) — the most useful modern entry point for MARL.
+
+### Practice and engineering
+- [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/) — not a book, but still one of the best practical intros.
+- [Deep Reinforcement Learning Hands-On](https://www.packtpub.com/en-us/product/deep-reinforcement-learning-hands-on-9781804611211) — practical deep RL implementation-oriented book.
+
+### Chinese resources
+- [动手学强化学习](https://hrl.boyuai.com/)
+- [EasyRL 强化学习教程](https://github.com/datawhalechina/easy-rl)
+- [神经网络与深度学习](https://nndl.github.io/) — 邱锡鹏
+
+> Note: this README now prefers official or open links. For copyrighted books without official free versions, link to the official page instead of unofficial PDF mirrors.
 
 ---
+
 ## Courses
-- UCL. [Reinforcement Learning](https://www.davidsilver.uk/teaching/). [David Silver](https://www.davidsilver.uk/). Difficulty: [&#9733;]
-- UCL. [Advanced Topics](https://github.com/Zhenye-Na/advanced-deep-learning-and-reinforcement-learning-deepmind). [David Silver](https://www.davidsilver.uk/).
-- Tencent. [Reinforcement Learning](https://mofanpy.com/tutorials/machine-learning/reinforcement-learning/). MoFan. Difficulty: [&#9733;]
-- National Taiwan University. [DRL](https://www.bilibili.com/video/av24724071/?p=1&vd_source=2026817085b0497e7510e8a952dac21e). [Hung-Yi LEE](https://speech.ee.ntu.edu.tw/~hylee/index.php). [Preferred]. Difficulty: [&#9733;]
-- Deep Reinforcement Learning. Shusen Wang. [[Bilibili]](https://www.bilibili.com/video/BV12o4y197US/?spm_id_from=333.337.search-card.all.click&vd_source=1b5a680450b015abb52a712f2dbac81a)
-- UCLA. [Intro to Reinforcement Learning](https://www.youtube.com/watch?v=IkEF4LpH5Ys&list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD). [Bolei Zhou](https://boleizhou.github.io/). Difficulty: [&#9733;]
-- UC Berkeley CS294 (before), CS285 Sergey Levine
-- Stanford CS234 RL Emma Brunskill [[Bilibili]](https://www.bilibili.com/video/BV1sb411s7eQ/?from=search&seid=14467709922277911537&spm_id_from=333.337.0.0&vd_source=1b5a680450b015abb52a712f2dbac81a) [[Official]](http://web.stanford.edu/class/cs234/)
-- [MIT RL Dimitri Bertsekas](http://www.mit.edu/~dimitrib/RLbook.html)
-- RL and control THU
-- CMU Deep Reinforcement Learning Katerina Fragkiadaki [[Link]](https://cmudeeprl.github.io/403website_s23/)
-- Udacity
-- Lex Fridman
-- [ETHz Dynamic Programming and Optimal Control Raffaello D'Andrea](https://idsc.ethz.ch/education/lectures/optimal-control.html)
-- [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/)
-- [高级机器学习 唐杰](https://www.aminer.cn/aml)
-- 李升波
-- UIUC, [CS 542](http://nanjiang.cs.illinois.edu/cs542/), [CS 443](http://nanjiang.cs.illinois.edu/cs443/), Nan Jiang.
-- R. Srikant. UIUC ECE 586.
-- Ron Parr. Duke CompSci 590.2.
-- Ben Van Roy. Stanford MS&E 338.
-- Ambuj Tewari and Susan Murphy. U Michigan STATS 710.
-- Susan Murphy. Harvard Stat 234.
-- Alekh Agarwal and Alex Slivkins. Columbia COMS E6998.001.
-- Daniel Russo. Columbia B9140-001.
-- Shipra Agrawal. Columbia IEOR 8100.
-- Emma Brunskill CMU 15-889e.
-- Philip Thomas. U Mass CMPSCI 687.
-- Michael Littman. Brown CSCI2951-F.
-- NJU. [IntroRL](http://www.lamda.nju.edu.cn/introRL/). [Yang Yu](https://www.wolai.com/eyounx/dtR1MTyRXS5tP5Cex4KtdK).
-- CMU 16 745
-- CSE 691 asu
-- UCLA, [Reinforcement Learning of Large Language Models, Spring 2025](https://ernestryu.com/courses/RL-LLM.html)  Ernest K. Ryu
+
+### Core RL
+- [UCL Reinforcement Learning](https://www.davidsilver.uk/teaching/) — David Silver
+- [UC Berkeley CS285: Deep Reinforcement Learning](http://rail.eecs.berkeley.edu/deeprlcourse/)
+- [Stanford CS234: Reinforcement Learning](https://web.stanford.edu/class/cs234/)
+- [MIT Reinforcement Learning and Optimal Control](http://www.mit.edu/~dimitrib/RLbook.html) — Dimitri Bertsekas
+- [UCLA Intro to Reinforcement Learning](https://www.youtube.com/playlist?list=PLySQw_vQ73PyDY68KF0HdCzcILBoHVTvD) — Bolei Zhou
+- [CMU Deep Reinforcement Learning](https://cmudeeprl.github.io/)
+- [NJU IntroRL](http://www.lamda.nju.edu.cn/introRL/) — Yang Yu / LAMDA
+- [UIUC RL courses](https://nanjiang.cs.illinois.edu/) — Nan Jiang
+
+### RL for LLMs / foundation models
+- [Reinforcement Learning of Large Language Models](https://ernestryu.com/courses/RL-LLM.html) — a useful bridge from classical RL to modern post-training.
 
 ---
-## RL Research Topics
-- ### Approximate Dynamic Programming and Offline RL
-   > Approximate Dynamic Programming (ADP) concerns obtaining approximate solutions to large planning problems, often with the help of sampling and function approximation. Many ADP methods can be considered as prototype algorithms for popular value-based RL algorithms used today, especially in the offline setting, so it is important to understand their behaviors and guarantees.
-  - #### Online + Offline (Hybrid)
-    - Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning
-    - Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data
-    - Hybrid rl: Using both offline and online data can make rl efficient
-- ### Multi-agent RL
-- ### Off-policy Evaluation
-  > How to estimate the performance of a policy using data collected from a different policy? This question has important implications in safety and real-world applications of RL.
+
+## Surveys and reading lists
+
+### General reading lists
+- [Papers with Code: Reinforcement Learning](https://paperswithcode.com/task/reinforcement-learning)
+- [Farama Foundation](https://farama.org/)
+- [OpenDILab](https://opendilab.net/)
+- [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/)
+
+### Topic-specific surveys and overviews
+- [Safe Reinforcement Learning: A Survey](https://jmlr.org/papers/v16/garcia15a.html)
+- [A Survey of Offline Reinforcement Learning](https://arxiv.org/abs/2203.01387)
+- [Model-Based Reinforcement Learning: A Survey](https://arxiv.org/abs/2006.16712)
+- [A Survey and Critique of Multiagent Deep Reinforcement Learning](https://arxiv.org/abs/1810.05587)
+- [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
+
+### Useful blogs / notes
+- [Lilian Weng's blog](https://lilianweng.github.io/) — especially useful for policy optimization, reward learning, agents, and LLM/RL topics.
+- [David Silver course notes and videos](https://www.davidsilver.uk/teaching/)
 
 ---
-## GitHub Repo
+
+## Canonical papers by topic
+
+This section is intentionally **representative instead of exhaustive**. It is designed to help readers build the map of the field quickly.
+
+### 1. Foundations
+- [Q-Learning](https://link.springer.com/article/10.1007/BF00992698) — Watkins & Dayan, 1992
+- [Policy Gradient Methods for Reinforcement Learning with Function Approximation](https://proceedings.neurips.cc/paper/1999/hash/464d828b85b0bed98e80ade0a5c43b0f-Abstract.html) — Sutton et al., 1999
+
+### 2. Value-based deep RL
+- [Playing Atari with Deep Reinforcement Learning](https://arxiv.org/abs/1312.5602) — DQN
+- [Human-level control through deep reinforcement learning](https://www.nature.com/articles/nature14236) — Nature DQN paper
+- [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+- [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+- [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
+- [Rainbow: Combining Improvements in Deep Reinforcement Learning](https://arxiv.org/abs/1710.02298)
+- [A Distributional Perspective on Reinforcement Learning](https://arxiv.org/abs/1707.06887) — C51
+
+### 3. Policy gradient and actor-critic
+- [Trust Region Policy Optimization](https://arxiv.org/abs/1502.05477) — TRPO
+- [Asynchronous Methods for Deep Reinforcement Learning](https://arxiv.org/abs/1602.01783) — A3C
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) — PPO
+- [Deterministic Policy Gradient Algorithms](https://proceedings.mlr.press/v32/silver14.html)
+- [Continuous Control with Deep Reinforcement Learning](https://arxiv.org/abs/1509.02971) — DDPG
+- [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/abs/1802.09477) — TD3
+- [Soft Actor-Critic](https://arxiv.org/abs/1801.01290) — SAC
+
+### 4. Planning, search, and self-play
+- [Mastering the game of Go with deep neural networks and tree search](https://www.nature.com/articles/nature16961) — AlphaGo
+- [Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm](https://arxiv.org/abs/1712.01815) — AlphaZero
+- [Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model](https://arxiv.org/abs/1911.08265) — MuZero
+
+### 5. Model-based RL and world models
+- [Deep Planning Network](https://arxiv.org/abs/1708.04782)
+- [PETS: Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models](https://arxiv.org/abs/1805.12114)
+- [MBPO: Model-Based Policy Optimization](https://arxiv.org/abs/1906.08253)
+- [Dream to Control: Learning Behaviors by Latent Imagination](https://arxiv.org/abs/1912.01603) — Dreamer
+- [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) — DreamerV3
+- [TD-MPC](https://arxiv.org/abs/2203.04955)
+- [TD-MPC2](https://arxiv.org/abs/2310.16828)
+
+### 6. Offline RL
+- [Off-Policy Deep Reinforcement Learning without Exploration](https://arxiv.org/abs/1812.02900) — BCQ
+- [Stabilizing Off-Policy Q-Learning via Bootstrapping Error Reduction](https://arxiv.org/abs/1906.00949) — BEAR
+- [Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/abs/2006.04779) — CQL
+- [Offline Reinforcement Learning with Implicit Q-Learning](https://arxiv.org/abs/2110.06169) — IQL
+- [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/abs/2106.01345)
+
+### 7. Multi-agent RL
+- [Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments](https://arxiv.org/abs/1706.02275) — MADDPG
+- [Counterfactual Multi-Agent Policy Gradients](https://arxiv.org/abs/1705.08926) — COMA
+- [Value-Decomposition Networks For Cooperative Multi-Agent Learning](https://arxiv.org/abs/1706.05296) — VDN
+- [QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/abs/1803.11485)
+- [The Surprising Effectiveness of PPO in Cooperative Multi-Agent Games](https://arxiv.org/abs/2103.01955) — MAPPO
+
+### 8. RL for language models, preference learning, and agents
+- [Learning to summarize from human feedback](https://arxiv.org/abs/2009.01325)
+- [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) — InstructGPT / RLHF milestone
+- [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) — not RL, but essential for comparison in post-training pipelines
+- [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) — representative GRPO-style post-training direction
+
+### 9. Additional important themes worth studying
+- Distributional RL
+- Hierarchical RL
+- Safe / constrained RL
+- Exploration and intrinsic motivation
+- Sim2Real and robotics RL
+- RL for recommender systems
+- RL for alignment, agents, tool use, and verifiable domains
+
+---
+
+## Libraries and frameworks
+
+### General-purpose RL
+- [Stable-Baselines3](https://stable-baselines3.readthedocs.io/)
+- [CleanRL](https://github.com/vwxyzjn/cleanrl)
+- [RLlib](https://docs.ray.io/en/latest/rllib/)
+- [Acme](https://github.com/google-deepmind/acme)
+- [Dopamine](https://github.com/google/dopamine)
+- [Tianshou](https://github.com/thu-ml/tianshou)
+- [DI-engine](https://github.com/opendilab/DI-engine)
+- [Sample Factory](https://github.com/alex-petrenko/sample-factory)
+
+### Multi-agent RL
+- [PettingZoo](https://pettingzoo.farama.org/)
+- [MARLlib](https://github.com/Replicable-MARL/MARLlib)
+- [PyMARL](https://github.com/oxwhirl/pymarl)
+
+### RL for LLM post-training
+- [TRL](https://github.com/huggingface/trl)
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
+- [verl](https://github.com/volcengine/verl)
+
+### Reproducibility / reference repositories
 - [rlcode](https://github.com/rlcode/reinforcement-learning)
-- [Deep-Reinforcement-Learning-Algorithms-with-PyTorch
-](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
-- [Deep-reinforcement-learning-with-pytorch
-](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
-- [reinforcement-learning [most stars]](https://github.com/dennybritz/reinforcement-learning)
-- OpenAI stable baseline3
-- Google Dopamine
-- Intel Coach
-- Clean RL
+- [dennybritz/reinforcement-learning](https://github.com/dennybritz/reinforcement-learning)
+- [p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
+- [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
 
 ---
 
-## Website
-- [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
-- [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
-- [强化学习知识大讲堂 郭宪](https://zhuanlan.zhihu.com/sharerl)
-- [智能单元](https://zhuanlan.zhihu.com/intelligentunit)
-- [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
-- [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
-- [博客园 刘建平](https://www.cnblogs.com/pinard/)
+## Environments, benchmarks, and datasets
+
+### Classic control and Atari
+- [Gymnasium](https://gymnasium.farama.org/)
+- [Arcade Learning Environment (ALE)](https://ale.farama.org/)
+- [MinAtar](https://github.com/kenjyoung/MinAtar)
+- [Procgen](https://github.com/openai/procgen)
+
+### Continuous control and robotics
+- [MuJoCo](https://mujoco.org/)
+- [DeepMind Control Suite](https://github.com/google-deepmind/dm_control)
+- [Meta-World](https://meta-world.github.io/)
+- [robosuite](https://robosuite.ai/)
+- [ManiSkill](https://www.maniskill.ai/)
+- [Brax](https://github.com/google/brax)
+
+### Multi-agent environments
+- [PettingZoo](https://pettingzoo.farama.org/)
+- [SMAC](https://github.com/oxwhirl/smac)
+- [MPE / MPE2](https://pettingzoo.farama.org/environments/mpe/)
+
+### Offline RL datasets
+- [D4RL](https://github.com/Farama-Foundation/D4RL)
+- [RL Unplugged](https://arxiv.org/abs/2006.13888)
+- [MineRL](https://minerl.readthedocs.io/)
+
+### Evaluation reminders
+When reading RL papers or running experiments, always keep these in mind:
+- environment versions matter;
+- normalized score definitions matter;
+- number of seeds matters;
+- online vs. offline setting should never be mixed casually;
+- wall-clock efficiency and system complexity often matter as much as sample efficiency.
 
 ---
-## Activity
-- [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
-- AWS DeepRacer
 
----
-## Application
+## Applications
+
+This repository already contains several subpages under [`./doc`](./doc), which are good starting anchors and can be expanded further:
 - [Quant](./doc/RL4Quant.md)
 - [Gaming](./doc/RL4Gaming.md)
 - [Optimization](./doc/RL4OPT.md)
 - [Recommendation](./doc/RL4Rem.md)
 - [LLMs](./doc/LLM4RL.md)
-- [Distribution](./doc/DistributedRL.md)
----
-## Community
-* [RLChina](http://rlchina.org/)
-* [DeepRLHub](http://www.deeprlhub.com/)
-* [智源社区](https://hub.baai.ac.cn/)
-* [上海AILAB-浦策](https://opendilab.net/home)
+- [Distributed RL](./doc/DistributedRL.md)
+
+### Representative application directions
+- **Games**: Atari, Go, Chess, StarCraft, Dota
+- **Robotics and control**: locomotion, manipulation, autonomous driving, industrial control
+- **Recommendation / ads / ranking**: long-term user value, slate recommendation, bandits + RL
+- **Operations research / optimization**: routing, scheduling, resource allocation, combinatorial optimization
+- **Finance / quant**: portfolio allocation, execution, market making, decision under uncertainty
+- **LLMs and agents**: RLHF, tool use, web agents, code / math post-training, verifier-based optimization
+
+### Notes by application
+- **Recommendation systems** usually require strong off-policy evaluation and careful reward design.
+- **Robotics** usually requires simulation quality, domain randomization, or offline data.
+- **LLM post-training** depends heavily on data quality, reward / verifier quality, rollout throughput, and stability of the optimization recipe.
 
 ---
-## <div id="publish">Conference & Journal</div>
 
-Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, etc.
+## Websites and communities
+- [Papers with Code - Reinforcement Learning](https://paperswithcode.com/task/reinforcement-learning)
+- [Farama Foundation](https://farama.org/)
+- [OpenDILab](https://opendilab.net/)
+- [RLChina](http://rlchina.org/)
+- [DeepRLHub](http://www.deeprlhub.com/)
+- [Lilian Weng's blog](https://lilianweng.github.io/)
 
-Journal: JMLR, JAIR, JAAMAS, etc.
+---
+
+## Conferences and journals
+
+### Conferences
+- NeurIPS
+- ICML
+- ICLR
+- AAAI
+- IJCAI
+- AAMAS
+- CoRL
+- RSS
+- IROS
+
+### Journals / venues often relevant to RL
+- JMLR
+- JAIR
+- TMLR
+- Autonomous Agents and Multi-Agent Systems
+- IEEE TNNLS
+- IEEE Transactions on Cybernetics
 
 ---
 
-## Research Group
-* [Asia]()
-   * [CASIA]()
-     * Haifeng Zhang [[Homepage]](https://pkuzhf.github.io/) [[Group]](http://marl.ia.ac.cn/)
-     * Zhiqiang Pu [[Homepage]](https://people.ucas.edu.cn/~pzq)
-     * Dongbin Zhao [[Homepage]](https://people.ucas.ac.cn/~zhaodongbin)
-     * Junliang Xing [[Homepage]](https://people.ucas.ac.cn/~jlxing)
-   * [NJU]()
-     * Yang Yu - Interested in [[Homepage]](https://jxwuyi.weebly.com/)
-     * Yinghuan Shi [[Homepage]](https://cs.nju.edu.cn/shiyh/index.htm)
-     * Yang Gao [[Homepage]](https://cs.nju.edu.cn/gaoyang/index.htm)
-     * Zongzhang Zhang [[Homepage]](https://ai.nju.edu.cn/zhangzongzhang/index.htm)
-     * NJU SME Faculty
-   * [SJTU]()
-      * Yong Yu [[Homepage]](https://apex.sjtu.edu.cn/members/yyu)
-      * Weinan Zhang [[Homepage]](http://wnzhang.net/)
-      * Kai Yu [[Homepage]](https://x-lance.sjtu.edu.cn/en/members/kai_yu)
-      * Ying Wen [[Homepage]](https://yingwen.io/)
-   * [PKU]()
-      * Yaodong Yang [[Homepage]](https://www.yangyaodong.com/)
-      * Zhihua Zhang [[Homepage]](https://www.math.pku.edu.cn/teachers/zhzhang/)
-      * Zongqing Lu [[Homepage]](https://z0ngqing.github.io/)
-      * Hao Dong [[Homepage]](https://zsdonghao.github.io/)
-   * [THU]()
-      * Chongjie Zhang [[Homepage]](http://people.iiis.tsinghua.edu.cn/~zhang/)
-      * Yi Wu [[Homepage]](https://jxwuyi.weebly.com/) [[Group]](https://jxwuyi.weebly.com/)
-      * Zhihua Zhang [[Homepage]](https://www.math.pku.edu.cn/teachers/zhzhang/)
-      * Shengbo Li [[Homepage]](http://www.idlab-tsinghua.com/thulab/labweb/dpeople.html?11) [[Group]](http://www.idlab-tsinghua.com/thulab/labweb/index.html)
-   * [USTC]()
-      * Feng Wu [[Homepage]](http://staff.ustc.edu.cn/~wufeng02/index.html?lang=zh)
-      * Houqiang Li [[Homepage]](http://staff.ustc.edu.cn/~lihq/)
-   * [CUHK-SZ]()
-      * Baoxiang Wang [[Homepage]](https://bxiangwang.github.io/)
-      * Hongyuan Zha [[Homepage]](https://sds.cuhk.edu.cn/en/teacher/65)
-   * [CUHK]()
-      * Baoxiang Wang
-   * [TJU]()
-      * Jianye Hao [[Homepage]](https://jxwuyi.weebly.com/) [[Group]](https://jxwuyi.weebly.com/)
-   * [SIAT]()
-     * Yunduan Cui [[Homepage]](https://cuiyunduan.vercel.app/zh/)
-   * [HIT-SZ]()
-     * Yanjie Li [[Homepage]](http://faculty.hitsz.edu.cn/liyanjie)
-   * [NTU]()
-     * Bo An [[Homepage]](https://personal.ntu.edu.sg/boan/index.html)
-   * [NUDT]()
-     * Xin Xv
-   * [SYSU]()
-     * Chao Yu [[Homepage]](https://cse.sysu.edu.cn/content/4883)
-* [North America]()
-   * [Mcgill]()
-     * Doina Precup
-     * Joelle Pineau
-   * [Alberta]()
-     * Michael Bowling [[Homepage]]()
-   * [UCLA]()
-      * Bolei Zhou  [[Homepage]](https://boleizhou.github.io/)
-   * [MIT]()
-     * Pulkit Agrawal
-     * Leslie Kaelbling
-     * Russ Tedrake
-     * Nicholas Roy
-   * [CMU]()
-     * Geoffrey Gordon
-     * Emma Brunskill
-     * Jeff Schneider
-     * Andrew Moore
-     * Jessica K. Hodgins
-     * Wen Sun [[Homepage]](https://wensun.github.io/)
-   * [Berkeley]()
-     *  Sergey Levine
-     *  Michael Jordan
-     *  Pieter Abbeel [[Gruop]](https://bair.berkeley.edu/index.html#header)
-     *  Dimitri Bertsekas
-     *  Emma Brunskill
-     *  Chelsea Finn
-     *  Anca Dragan
-     *  Ken Goldberg
-     *  Stuart Russell
-   * [Standford]()
-     * Benjamin Van Roy
-     * Emma Brunskill
-     * Mykel Kochenderfer
-     * Dorsa Sadigh
-     * Tengyu Ma
-     * Chelsea Finn
-     * Andrew Ng
-   * [UIUC]()
-     * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)
-   * [Duke]()
-     * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
-   * [Brown]()
-     * Michael Littman
-   * [Columbia]()
-     * Daniel Russo
-     * Shipra Agrawal
-     * Alekh Agarwal
-     * Alex Slivkins
-   * [Toronto]()
-     * Jimmy Ba [[Homepage]](https://jimmylba.github.io/)
-     * Sheila McIlraith [[Homepage]](https://www.cs.toronto.edu/~sheila/)
-* [Europe]()
-   * [INRIA]()
-     * Flower Team [[Homepage]](https://flowers.inria.fr/)
-   * [ETH Zurich]()
-     * Andreas Krause [[Homepage]](https://las.inf.ethz.ch/krausea)
-   * [Oxford]()
-     * Jakob Foerster
-   * [Cambridge]()
-   * [IC]()
-   * [UCL]()
-     * [Jun Wang]()
-     * [David Silver](https://www.davidsilver.uk/)
+## Selected research groups
 
-#### Other outer link
-- [Awesome-CV-Team](https://github.com/extreme-assistant/Awesome-CV-Team)
+This section is intentionally **representative, not exhaustive**.
 
+### Academia
+- [UCL / David Silver](https://www.davidsilver.uk/)
+- [BAIR / UC Berkeley](https://bair.berkeley.edu/)
+- [Stanford CS234 / RL community](https://web.stanford.edu/class/cs234/)
+- [CMU Deep RL](https://cmudeeprl.github.io/)
+- [McGill / Mila](https://mila.quebec/en/)
+- [NJU LAMDA](http://www.lamda.nju.edu.cn/)
+- [PKU / Yaodong Yang](https://www.yangyaodong.com/)
+- [SJTU APEX Lab](https://apex.sjtu.edu.cn/)
+- [Tsinghua IIIS / Chongjie Zhang](http://people.iiis.tsinghua.edu.cn/~zhang/)
+- [OpenDILab](https://opendilab.net/)
 
-**[⬆ back to top](#contents)**
-  
----
-
-## Industry Group
-* [China]()
-   * [BaiDu]()
-      * [PARL]()
-   * [Tencent]()
-   * [NetEase]()
-   * [ByteDance]()
-   * [Di Di]()
-   * [BaiDu]()
-   * [MSRA]()
-   * [Huawei]()
-   * [PINGAN]()
-   * [Polixir.ai]()
-   * [Inspirai]()
-   * [Horizon]()
-   * [Momenta]()
-   * [Parametrix.ai]()
-   * [Alibaba]()
-   * [Kwai]()
-* [Oversea]()
-  * OpenAI
-  * DeepMind
-  * Google Brain
-  * FAIR
-  * Salesforce Research
- 
-**[⬆ back to top](#contents)**
+### Industry
+- DeepMind
+- OpenAI
+- FAIR / Meta
+- Microsoft Research
+- Google Research
+- Tencent
+- Baidu
+- Huawei Noah's Ark Lab
+- Alibaba
+- Polixir
 
 ---
-## Misc
-- [Useful inequalities cheat sheet](http://www.lkozma.net/inequalities_cheat_sheet/)
-- [Concentration of measure](https://www.stat.cmu.edu/~larry/=sml/Concentration.pdf)
-- [dalmia/David-Silver-Reinforcement-learning: Notes for the Reinforcement Learning course by David Silver along with implementation of various algorithms. (github.com)](https://github.com/dalmia/David-Silver-Reinforcement-learning)
-- [强化学习路线推荐及资料整理 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/344196096)
-- [PacktPublishing/Mastering-Reinforcement-Learning-with-Python: Mastering Reinforcement Learning with Python, published by Packt (github.com)](https://github.com/PacktPublishing/Mastering-Reinforcement-Learning-with-Python)
 
-**[⬆ back to top](#contents)**
-
----
-## Discussion
-1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
-2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy.md)
-
-
-**[⬆ back to top](#contents)**
-
----
 ## Contributing
 
-This is an active repository and it is time-consuming to maintain the content. **So your contributions really matter!**
+Contributions are very welcome.
 
-If you find it helpful, please vote for it by adding 👍.
+A good contribution usually has one of the following forms:
+- add a missing classic resource;
+- add a high-quality modern survey or benchmark;
+- fix broken or outdated links;
+- improve categorization;
+- add a concise description explaining why a resource matters.
 
-If you have any question about this list, do not hesitate to contact me at 1546631808@qq.com.
+Please try to follow these principles:
+- prefer official links;
+- avoid duplicate entries;
+- avoid unofficial PDF mirrors for copyrighted books;
+- add a one-line description when the title alone is not self-explanatory.
 
-**[⬆ back to top](#contents)**
+If you find this repository helpful, consider giving it a star.
 
 ---
 
-
-
 ## Reference
-* https://www.zhihu.com/collection/840642960
-* https://www.zhihu.com/question/516672871
-* http://www.deeprlhub.com/d/154/2
-* https://zhuanlan.zhihu.com/p/571011569
-* [东栏雪](https://www.zhihu.com/question/277325426/answer/2712724382)
+- https://www.zhihu.com/collection/840642960
+- https://www.zhihu.com/question/516672871
+- http://www.deeprlhub.com/d/154/2
+- https://zhuanlan.zhihu.com/p/571011569
 
-**[⬆ back to top](#contents)**
+---
 
+If you have suggestions for expanding any subtopic such as **offline RL**, **model-based RL**, **MARL**, **RLHF**, **agent RL**, or **RL for recommender systems**, feel free to open an issue or PR.
