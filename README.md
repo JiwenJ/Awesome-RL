@@ -295,7 +295,7 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
       * Baoxiang Wang [[Homepage]](https://bxiangwang.github.io/)
       * Hongyuan Zha [[Homepage]](https://sds.cuhk.edu.cn/en/teacher/65)
    * [CUHK]()
-      * Baoxiang Wang
+      * Baoxiang Wang [[Homepage]](https://bxiangwang.github.io/)
    * [TJU]()
       * Jianye Hao [[Homepage]](https://jxwuyi.weebly.com/) [[Group]](https://jxwuyi.weebly.com/)
    * [SIAT]()
@@ -310,53 +310,56 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
      * Chao Yu [[Homepage]](https://cse.sysu.edu.cn/content/4883)
 * [North America]()
    * [Mcgill]()
-     * Doina Precup
-     * Joelle Pineau
+     * Doina Precup [[Homepage]](https://www.mcgill.ca/cim/precup)
+     * Joelle Pineau [[Homepage]](https://www.cs.mcgill.ca/~jpineau/)
    * [Alberta]()
-     * Michael Bowling [[Homepage]]()
+     * Michael Bowling [[Homepage]](https://webdocs.cs.ualberta.ca/~bowling/personal.html)
+     * Richard Sutton [[Homepage]](https://www.amii.ca/about/our-people/richard-s-sutton)
+     * Martha White [[Homepage]](https://apps.ualberta.ca/directory/person/whitem)
+     * Adam White [[Homepage]](https://sites.ualberta.ca/~amw8/)
    * [UCLA]()
-      * Bolei Zhou  [[Homepage]](https://boleizhou.github.io/)
+      * Bolei Zhou [[Homepage]](https://boleizhou.github.io/)
    * [MIT]()
-     * Pulkit Agrawal
-     * Leslie Kaelbling
-     * Russ Tedrake
-     * Nicholas Roy
+     * Pulkit Agrawal [[Homepage]](https://www.eecs.mit.edu/people/pulkit-agrawal/)
+     * Leslie Kaelbling [[Homepage]](https://people.csail.mit.edu/lpk/)
+     * Russ Tedrake [[Homepage]](https://www.csail.mit.edu/person/russ-tedrake)
+     * Nicholas Roy [[Homepage]](https://www.csail.mit.edu/person/nicholas-roy)
    * [CMU]()
-     * Geoffrey Gordon
-     * Emma Brunskill
+     * Geoffrey Gordon [[Homepage]](https://www.cs.cmu.edu/~ggordon/)
+     * Emma Brunskill [[Homepage]](https://cs.stanford.edu/people/ebrun/)
      * Jeff Schneider
      * Andrew Moore
      * Jessica K. Hodgins
      * Wen Sun [[Homepage]](https://wensun.github.io/)
    * [Berkeley]()
-     *  Sergey Levine
-     *  Michael Jordan
-     *  Pieter Abbeel [[Gruop]](https://bair.berkeley.edu/index.html#header)
-     *  Dimitri Bertsekas
-     *  Emma Brunskill
-     *  Chelsea Finn
-     *  Anca Dragan
-     *  Ken Goldberg
-     *  Stuart Russell
+     * Sergey Levine [[Homepage]](https://www2.eecs.berkeley.edu/Faculty/Homepages/svlevine.html)
+     * Michael Jordan
+     * Pieter Abbeel [[Homepage]](https://www2.eecs.berkeley.edu/Faculty/Homepages/abbeel.html) [[Group]](https://bair.berkeley.edu/index.html#header)
+     * Dimitri Bertsekas [[Homepage]](https://www.mit.edu/~dimitrib/home.html)
+     * Emma Brunskill [[Homepage]](https://cs.stanford.edu/people/ebrun/)
+     * Chelsea Finn [[Homepage]](https://profiles.stanford.edu/chelsea-finn)
+     * Anca Dragan [[Homepage]](https://executive.berkeley.edu/faculty-directory/anca-dragan)
+     * Ken Goldberg [[Homepage]](https://goldberg.berkeley.edu/)
+     * Stuart Russell [[Homepage]](https://www2.eecs.berkeley.edu/Faculty/Homepages/russell.html)
    * [Standford]()
-     * Benjamin Van Roy
-     * Emma Brunskill
-     * Mykel Kochenderfer
-     * Dorsa Sadigh
-     * Tengyu Ma
-     * Chelsea Finn
-     * Andrew Ng
+     * Benjamin Van Roy [[Homepage]](https://web.stanford.edu/~bvr/)
+     * Emma Brunskill [[Homepage]](https://cs.stanford.edu/people/ebrun/)
+     * Mykel Kochenderfer [[Homepage]](https://profiles.stanford.edu/mykel-kochenderfer)
+     * Dorsa Sadigh [[Homepage]](https://www.cs.stanford.edu/people/dorsa-sadigh)
+     * Tengyu Ma [[Homepage]](https://ai.stanford.edu/~tengyuma/)
+     * Chelsea Finn [[Homepage]](https://profiles.stanford.edu/chelsea-finn)
+     * Andrew Ng [[Homepage]](https://www.andrewng.org/)
    * [UIUC]()
-     * Nan Jiang [Homepage](https://nanjiang.cs.illinois.edu/)
+     * Nan Jiang [[Homepage]](https://nanjiang.cs.illinois.edu/)
    * [Duke]()
      * Ronald Parr [[Homepage]](https://users.cs.duke.edu/~parr/)
    * [Brown]()
-     * Michael Littman
+     * Michael Littman [[Homepage]](https://www.littmania.com/)
    * [Columbia]()
-     * Daniel Russo
+     * Daniel Russo [[Homepage]](https://business.columbia.edu/faculty/people/daniel-russo)
      * Shipra Agrawal
-     * Alekh Agarwal
-     * Alex Slivkins
+     * Alekh Agarwal [[Homepage]](https://alekhagarwal.net/)
+     * Alex Slivkins [[Homepage]](https://www.microsoft.com/en-us/research/people/slivkins/)
    * [Toronto]()
      * Jimmy Ba [[Homepage]](https://jimmylba.github.io/)
      * Sheila McIlraith [[Homepage]](https://www.cs.toronto.edu/~sheila/)
@@ -366,12 +369,14 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
    * [ETH Zurich]()
      * Andreas Krause [[Homepage]](https://las.inf.ethz.ch/krausea)
    * [Oxford]()
-     * Jakob Foerster
+     * Jakob Foerster [[Homepage]](https://eng.ox.ac.uk/people/jakob-foerster/)
+     * Shimon Whiteson [[Homepage]](https://www.cs.ox.ac.uk/people/shimon.whiteson/)
    * [Cambridge]()
    * [IC]()
    * [UCL]()
-     * [Jun Wang]()
-     * [David Silver](https://www.davidsilver.uk/)
+     * Jun Wang [[Homepage]](https://www0.cs.ucl.ac.uk/staff/jun.wang/)
+     * David Silver [[Homepage]](https://www.davidsilver.uk/)
+     * Marc Deisenroth [[Homepage]](https://www.deisenroth.cc/)
 
 #### Other outer link
 - [Awesome-CV-Team](https://github.com/extreme-assistant/Awesome-CV-Team)
