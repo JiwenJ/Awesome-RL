@@ -231,16 +231,14 @@ A curated list of reinforcement learning resources, including books, courses, to
 
 ---
 ## Application
-- [Quant](./doc/RL4Quant.md)
-- [Gaming](./doc/RL4Gaming.md)
-- [Optimization](./doc/RL4OPT.md)
-- [Recommendation](./doc/RL4Rem.md)
-- [LLMs](./doc/LLM4RL.md)
-- [Distribution](./doc/DistributedRL.md)
+- Quant
+- Gaming
+- Optimization / Operations Research
+- Recommender System / Ads
+- LLMs
+- Distributed RL
 - Robotics
 - Autonomous Driving
-- Recommender System / Ads
-- Operations Research
 - Alignment / Agent / Tool Use
 ---
 ## Community
@@ -452,7 +450,7 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
 ---
 ## Discussion
 1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
-2. [Philosophy of Reinforcement Learning](./doc/RL_Philosophy.md)
+2. Philosophy of Reinforcement Learning
 3. Offline RL vs. Online RL vs. Hybrid RL
 4. World Models vs. Model-Free RL
 5. RLHF / Preference Optimization / Agent RL
@@ -472,8 +470,7 @@ If you have any question about this list, do not hesitate to contact me at 15466
 Preferred ways to contribute:
 - preserve the existing structure and add missing resources;
 - fix broken links;
-- add newer official references for old entries;
-- expand topic pages under `./doc/`.
+- add newer official references for old entries.
 
 **[⬆ back to top](#contents)**
 
