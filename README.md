@@ -12,10 +12,6 @@
 
 A curated list of reinforcement learning resources, including books, courses, topics, repos, websites, communities, research groups, and modern RL directions such as offline RL, world models, RLHF, and agent RL.
 
-> Note:
-> - I keep the original structure of this repository as much as possible.
-> - Legacy entries are preserved whenever possible, even if some are old.
-> - Newer items are added into the existing structure instead of replacing it.
 
 ## Contents
 - [Awesome RL](#awesome-rl)
