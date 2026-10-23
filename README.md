@@ -253,30 +253,28 @@ A curated list of reinforcement learning resources, including books, courses, re
 ---
 
 ## Industry Group
-* [China]()
-   * [BaiDu]()
-      * [PARL]()
-   * [Tencent]()
-   * [NetEase]()
-   * [ByteDance]()
-   * [Di Di]()
-   * [BaiDu]()
-   * [MSRA]()
-   * [Huawei]()
-   * [PINGAN]()
-   * [Polixir.ai]()
-   * [Inspirai]()
-   * [Horizon]()
-   * [Momenta]()
-   * [Parametrix.ai]()
-   * [Alibaba]()
-   * [Kwai]()
-* [Oversea]()
-  * OpenAI
-  * DeepMind
-  * Google Brain
-  * FAIR
-  * Salesforce Research
+* China
+   * [Baidu](https://home.baidu.com/)
+      * [PARL](https://github.com/PaddlePaddle/PARL)
+   * [Tencent](https://www.tencent.com/)
+   * [NetEase](https://www.netease.com/)
+   * [ByteDance](https://www.bytedance.com/en/)
+   * [DiDi](https://didiglobal.com/)
+   * [Microsoft Research Asia (MSRA)](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/)
+   * [Huawei](https://www.huawei.com/en/)
+   * [Ping An](https://group.pingan.com/)
+   * [Polixir](http://polixir.ai/) [[GitHub]](https://github.com/polixir)
+   * [Inspir.ai](http://inspir.ai/) [[GitHub]](https://github.com/inspirai)
+   * [Horizon Robotics](https://www.horizon.auto/en)
+   * [Momenta](https://www.momenta.ai/en/)
+   * [Parametrix.ai](https://www.parametrix.ai/)
+   * [Alibaba Group](https://www.alibabagroup.com/)
+   * [Kuaishou (Kwai)](https://www.kuaishou.com/en)
+* Overseas
+   * [OpenAI](https://openai.com/)
+   * [Google DeepMind](https://deepmind.google/)
+   * [Meta Fundamental AI Research (FAIR)](https://ai.meta.com/research/)
+   * [Salesforce AI Research](https://www.salesforce.com/ai-research/)
  
 **[⬆ back to top](#contents)**
 
