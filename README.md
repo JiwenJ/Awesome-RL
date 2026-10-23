@@ -10,14 +10,13 @@
 
 </div>
 
-A curated list of reinforcement learning resources, including books, courses, topics, repos, websites, communities, research groups, and modern RL directions such as offline RL, world models, RLHF, and agent RL.
+A curated list of reinforcement learning resources, including books, courses, repos, websites, communities, research groups, and modern RL directions such as offline RL, world models, RLHF, and agent RL.
 
 
 ## Contents
 - [Awesome RL](#awesome-rl)
    - [Books](#books)
    - [Courses](#courses)
-   - [Research Topics](#rl-research-topics)
    - [GitHub Repo](#github-repo)
    - [Website](#website)
    - [Activity](#activity)
@@ -104,74 +103,6 @@ A curated list of reinforcement learning resources, including books, courses, to
 - UCLA, [Reinforcement Learning of Large Language Models, Spring 2025](https://ernestryu.com/courses/RL-LLM.html) Ernest K. Ryu
 - [Berkeley CS285 Deep RL](http://rail.eecs.berkeley.edu/deeprlcourse/)
 - [OpenAI Spinning Up Education](https://spinningup.openai.com/en/latest/)
-
----
-## RL Research Topics
-- ### Approximate Dynamic Programming and Offline RL
-   > Approximate Dynamic Programming (ADP) concerns obtaining approximate solutions to large planning problems, often with the help of sampling and function approximation. Many ADP methods can be considered as prototype algorithms for popular value-based RL algorithms used today, especially in the offline setting, so it is important to understand their behaviors and guarantees.
-  - #### Online + Offline (Hybrid)
-    - Policy Finetuning: Bridging Sample-Efficient Offline and Online Reinforcement Learning
-    - Policy Finetuning in Reinforcement Learning via Design of Experiments using Offline Data
-    - Hybrid rl: Using both offline and online data can make rl efficient
-  - #### Offline RL
-    - Batch-constrained learning / support constraint
-    - Conservative value learning
-    - Sequence modeling for decision making
-    - Off-policy evaluation and selection under dataset shift
-- ### Multi-agent RL
-  - Cooperative MARL
-  - Mixed cooperative-competitive learning
-  - Value decomposition and factorization
-  - Emergent communication and social learning
-  - Population-based training and league systems
-- ### Off-policy Evaluation
-  > How to estimate the performance of a policy using data collected from a different policy? This question has important implications in safety and real-world applications of RL.
-- ### Model-based RL / World Models
-  - Latent dynamics modeling
-  - Planning with learned models
-  - PETS / MBPO / Dreamer / MuZero / TD-MPC line
-  - Simulators, control, and long-horizon rollout stability
-- ### Policy Optimization
-  - Policy gradient / actor-critic
-  - PPO / TRPO / natural policy gradient
-  - Entropy regularization and trust region methods
-  - Credit assignment and variance reduction
-- ### Distributional RL
-  - Return distribution modeling
-  - Risk-sensitive RL
-  - Quantile-based value estimation
-- ### Safe RL / Constrained RL
-  - Constraint satisfaction under uncertainty
-  - Shielding, recovery, and risk control
-  - Safe exploration
-- ### Hierarchical RL
-  - Options framework
-  - Skill discovery
-  - Temporal abstraction
-- ### Exploration
-  - Intrinsic motivation
-  - Curiosity-driven exploration
-  - Count-based and uncertainty-aware methods
-- ### RL for Robotics and Control
-  - Locomotion and manipulation
-  - Sim2real
-  - MPC + RL
-  - Industrial control and autonomous driving
-- ### RL for Recommender Systems / Ads / Operations Research
-  - Long-term user value
-  - Slate recommendation
-  - Dynamic pricing, scheduling, routing, resource allocation
-- ### RLHF / Post-training / Agent RL
-  - RLHF / RLAIF / constitutional preferences
-  - DPO / IPO / ORPO / preference optimization family
-  - Verifier-based RL
-  - Code, math, reasoning, and tool-use RL
-  - Web agents, environment interaction, and long-horizon agent training
-- ### RL Theory
-  - Sample complexity
-  - Regret minimization
-  - Bellman rank, function approximation, and generalization
-  - Partial observability and identifiability
 
 ---
 ## GitHub Repo
