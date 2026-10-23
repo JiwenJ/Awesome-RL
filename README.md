@@ -20,12 +20,10 @@ A curated list of reinforcement learning resources, including books, courses, re
    - [GitHub Repo](#github-repo)
    - [Website](#website)
    - [Activity](#activity)
-   - [Application](#application)
    - [Community](#community)
    - [Conference & Journal](#publish)
    - [Research Group](#research-group)
    - [Industry Group](#industry-group)
-   - [Discussion](#discussion)
    - [Contributing](#contributing)
    - [Reference](#reference)
 
@@ -156,17 +154,6 @@ A curated list of reinforcement learning resources, including books, courses, re
 - [NetHack Challenge](https://nethackchallenge.com/)
 - Kaggle / KDD / RecSys related sequential decision competitions
 
----
-## Application
-- Quant
-- Gaming
-- Optimization / Operations Research
-- Recommender System / Ads
-- LLMs
-- Distributed RL
-- Robotics
-- Autonomous Driving
-- Alignment / Agent / Tool Use
 ---
 ## Community
 * [RLChina](http://rlchina.org/)
@@ -371,17 +358,6 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
 - [PacktPublishing/Mastering-Reinforcement-Learning-with-Python: Mastering Reinforcement Learning with Python, published by Packt (github.com)](https://github.com/PacktPublishing/Mastering-Reinforcement-Learning-with-Python)
 - [Farama Docs](https://farama.org/)
 - [BAIR Blog](https://bair.berkeley.edu/blog/)
-
-**[⬆ back to top](#contents)**
-
----
-## Discussion
-1. Policy-based vs. Value-based [[ZhiHu]](https://www.zhihu.com/question/316626294/answer/627373838)
-2. Philosophy of Reinforcement Learning
-3. Offline RL vs. Online RL vs. Hybrid RL
-4. World Models vs. Model-Free RL
-5. RLHF / Preference Optimization / Agent RL
-
 
 **[⬆ back to top](#contents)**
 
