@@ -17,13 +17,13 @@ A curated list of reinforcement learning resources, including books, courses, re
 - [Awesome RL](#awesome-rl)
    - [Books](#books)
    - [Courses](#courses)
+   - [Research Group](#research-group)
+   - [Industry Group](#industry-group)
    - [GitHub Repo](#github-repo)
    - [Website](#website)
    - [Activity](#activity)
    - [Community](#community)
    - [Conference & Journal](#publish)
-   - [Research Group](#research-group)
-   - [Industry Group](#industry-group)
    - [Contributing](#contributing)
    - [Reference](#reference)
 
@@ -103,75 +103,6 @@ A curated list of reinforcement learning resources, including books, courses, re
 - [OpenAI Spinning Up Education](https://spinningup.openai.com/en/latest/)
 
 ---
-## GitHub Repo
-- [rlcode](https://github.com/rlcode/reinforcement-learning)
-- [Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
-- [Deep-reinforcement-learning-with-pytorch](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
-- [reinforcement-learning [most stars]](https://github.com/dennybritz/reinforcement-learning)
-- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)
-- [Google Dopamine](https://github.com/google/dopamine)
-- [Intel Coach](https://github.com/IntelLabs/coach)
-- [CleanRL](https://github.com/vwxyzjn/cleanrl)
-- [RLlib](https://github.com/ray-project/ray)
-- [Acme](https://github.com/google-deepmind/acme)
-- [Tianshou](https://github.com/thu-ml/tianshou)
-- [DI-engine](https://github.com/opendilab/DI-engine)
-- [PettingZoo](https://github.com/Farama-Foundation/PettingZoo)
-- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)
-- [D4RL](https://github.com/Farama-Foundation/D4RL)
-- [PyMARL](https://github.com/oxwhirl/pymarl)
-- [MARLlib](https://github.com/Replicable-MARL/MARLlib)
-- [Sample Factory](https://github.com/alex-petrenko/sample-factory)
-- [TRL](https://github.com/huggingface/trl)
-- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
-- [verl](https://github.com/volcengine/verl)
-- [Mujoco](https://github.com/google-deepmind/mujoco)
-- [robosuite](https://github.com/ARISE-Initiative/robosuite)
-- [ManiSkill](https://github.com/haosulab/ManiSkill)
-
----
-
-## Website
-- [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
-- [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
-- [强化学习知识大讲堂 郭宪](https://zhuanlan.zhihu.com/sharerl)
-- [智能单元](https://zhuanlan.zhihu.com/intelligentunit)
-- [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
-- [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
-- [博客园 刘建平](https://www.cnblogs.com/pinard/)
-- [Farama Foundation](https://farama.org/)
-- [OpenDILab](https://opendilab.net/)
-- [Lilian Weng Blog](https://lilianweng.github.io/)
-- [Spinning Up](https://spinningup.openai.com/en/latest/)
-- [AI Alignment Forum](https://www.alignmentforum.org/)
-- [BAIR Blog](https://bair.berkeley.edu/blog/)
-
----
-## Activity
-- [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
-- AWS DeepRacer
-- [MineRL Competition](https://www.minerl.io/)
-- [NetHack Challenge](https://nethackchallenge.com/)
-- Kaggle / KDD / RecSys related sequential decision competitions
-
----
-## Community
-* [RLChina](http://rlchina.org/)
-* [DeepRLHub](http://www.deeprlhub.com/)
-* [智源社区](https://hub.baai.ac.cn/)
-* [上海AILAB-浦策](https://opendilab.net/home)
-* [Farama Community](https://farama.org/)
-* [OpenDILab](https://opendilab.net/)
-
----
-## <div id="publish">Conference & Journal</div>
-
-Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, CoRL, RSS, etc.
-
-Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
-
----
-
 ## Research Group
 * Asia
    * [CASIA](http://www.ia.cas.cn/)
@@ -350,6 +281,75 @@ Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
 **[⬆ back to top](#contents)**
 
 ---
+## GitHub Repo
+- [rlcode](https://github.com/rlcode/reinforcement-learning)
+- [Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch)
+- [Deep-reinforcement-learning-with-pytorch](https://github.com/AndyYue1893/Deep-reinforcement-learning-with-pytorch)
+- [reinforcement-learning [most stars]](https://github.com/dennybritz/reinforcement-learning)
+- [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)
+- [Google Dopamine](https://github.com/google/dopamine)
+- [Intel Coach](https://github.com/IntelLabs/coach)
+- [CleanRL](https://github.com/vwxyzjn/cleanrl)
+- [RLlib](https://github.com/ray-project/ray)
+- [Acme](https://github.com/google-deepmind/acme)
+- [Tianshou](https://github.com/thu-ml/tianshou)
+- [DI-engine](https://github.com/opendilab/DI-engine)
+- [PettingZoo](https://github.com/Farama-Foundation/PettingZoo)
+- [Gymnasium](https://github.com/Farama-Foundation/Gymnasium)
+- [D4RL](https://github.com/Farama-Foundation/D4RL)
+- [PyMARL](https://github.com/oxwhirl/pymarl)
+- [MARLlib](https://github.com/Replicable-MARL/MARLlib)
+- [Sample Factory](https://github.com/alex-petrenko/sample-factory)
+- [TRL](https://github.com/huggingface/trl)
+- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
+- [verl](https://github.com/volcengine/verl)
+- [Mujoco](https://github.com/google-deepmind/mujoco)
+- [robosuite](https://github.com/ARISE-Initiative/robosuite)
+- [ManiSkill](https://github.com/haosulab/ManiSkill)
+
+---
+
+## Website
+- [PaperWithCode](https://paperswithcode.com/search?q_meta=&q_type=&q=reinforcement+learning)
+- [从零开始推导贝尔曼方程](https://www.bilibili.com/video/BV1fN41197ES/?spm_id_from=333.337.search-card.all.click)
+- [强化学习知识大讲堂 郭宪](https://zhuanlan.zhihu.com/sharerl)
+- [智能单元](https://zhuanlan.zhihu.com/intelligentunit)
+- [神经网络与强化学习](https://zhuanlan.zhihu.com/c_101836530)
+- [强化学习基础David Silver笔记 陈雄辉](https://zhuanlan.zhihu.com/c_135909947)
+- [博客园 刘建平](https://www.cnblogs.com/pinard/)
+- [Farama Foundation](https://farama.org/)
+- [OpenDILab](https://opendilab.net/)
+- [Lilian Weng Blog](https://lilianweng.github.io/)
+- [Spinning Up](https://spinningup.openai.com/en/latest/)
+- [AI Alignment Forum](https://www.alignmentforum.org/)
+- [BAIR Blog](https://bair.berkeley.edu/blog/)
+
+---
+## Activity
+- [Tencent AIArena](https://aiarena.tencent.com/aiarena/zh)
+- AWS DeepRacer
+- [MineRL Competition](https://www.minerl.io/)
+- [NetHack Challenge](https://nethackchallenge.com/)
+- Kaggle / KDD / RecSys related sequential decision competitions
+
+---
+## Community
+* [RLChina](http://rlchina.org/)
+* [DeepRLHub](http://www.deeprlhub.com/)
+* [智源社区](https://hub.baai.ac.cn/)
+* [上海AILAB-浦策](https://opendilab.net/home)
+* [Farama Community](https://farama.org/)
+* [OpenDILab](https://opendilab.net/)
+
+---
+## <div id="publish">Conference & Journal</div>
+
+Conference: NIPS, ICML, ICLR, AAAI, IJCAI, AAMAS, IROS, CoRL, RSS, etc.
+
+Journal: JMLR, JAIR, JAAMAS, TMLR, etc.
+
+---
+
 ## Misc
 - [Useful inequalities cheat sheet](http://www.lkozma.net/inequalities_cheat_sheet/)
 - [Concentration of measure](https://www.stat.cmu.edu/~larry/=sml/Concentration.pdf)
